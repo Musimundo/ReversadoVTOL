@@ -1,0 +1,1577 @@
+@ACL1500
+^LAYOUT   Datos                                                               1378 D,T.
+Usu_Legacy     ASCII       1  50    
+Cl_Legacy      ASCII      52  50    
+Usu_SAP        ASCII     103  50    
+Cl_SAP         ASCII     154  50    
+Usu_REPO       ASCII     205  50    
+Cl_REPO        ASCII     256  50    
+megatone       ASCII     307  50    
+confina        ASCII     358  50    
+base_megatone  ASCII     409  50    
+base_corefin   ASCII     460  50    
+clientes_megatone ASCII     511  50    
+clientes_corefin ASCII     562  50    
+proveedores    ASCII     613  50    
+musimundo      ASCII     664  50    
+clientes_unificado ASCII     715  50    
+interfaz_sap   ASCII     766  50    
+reposar        ASCII     817  50    
+subdiarios     ASCII     868  50    
+confinaweb     ASCII     919  50    
+adaptadores    ASCII     970  50    
+buzon_04       ASCII    1021  50    
+Usu_Rumbo      ASCII    1072  50    
+Cl_Rumbo       ASCII    1123  50    
+bancos         ASCII    1174  50    
+clientes_nuevo ASCII    1225  50    
+Usu_VTOL       ASCII    1276  50    
+Cl_VTOL        ASCII    1327  50    
+^LAYOUT   FacturasCuponRumbo                                                  2391 D,T.
+NUMERO_FISCAL  PRINT       1  21 0  
+ID_PEDIDO_VENTA PRINT      22  11 0  
+ES_BIEN_DE_USO PRINT      33   3 0  
+NUMERO_CREDITO PRINT      36  12 0  
+NUMERO_ENTREGA PRINT      48  12 0  
+LEGAJO_CAJERO  PRINT      60  12 0  
+LEGAJO_AUTORIZANTE PRINT      72  12 0  
+CAE_VIGENTE    ASCII      84  30    
+FECHA_VENCIMIENTO_CAE DATETIME  114  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+PUNTO_VENTA_FISCAL PRINT     133  11 0  
+INTERES_FACTURA_COREFIN PRINT     144  21 2  
+NUMERO_FACTURA_COREFIN PRINT     165  12 0  
+PUNTO_FACTURA_COREFIN PRINT     177  21 0  
+ID_COMPROBANTE PRINT     198  11 0  
+VERSION        PRINT     209  12 0  
+SECOND_LEVEL_VERSION PRINT     221  12 0  
+ID_PUNTO_DE_VENTA PRINT     233  11 0  
+NUMERO_CORRELATIVO PRINT     244  21 0  
+USERNAME       ASCII     265  50    
+ID_TIPO_COMPROBANTE PRINT     315  12 0  
+FECHA_CREACION DATETIME  327  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+OBSERVACIONES  ASCII     346  50    
+ID_SUB_TIPO_COMPROBANTE PRINT     396  21 0  
+ID_ESTADO      PRINT     417  11 0  
+ID_LOCAL       PRINT     428  11 0  
+ID_COMPROBANTE_ORI PRINT     439  11 0  
+ID_PUNTO_DE_VENTA_ORIGINAL PRINT     450  11 0  
+ID_PUNTO_DE_VENTA2 PRINT     461  11 0  
+VERSION2       PRINT     472  12 0  
+SECOND_LEVEL_VERSION2 PRINT     484  12 0  
+NUMERO         PRINT     496  12 0  
+NOMBRE         ASCII     508  50    
+NUM_CAJA       PRINT     558   7 0  
+USUARIO        ASCII     565  13    
+ADMITE_AUTO_PRINT PRINT     578   3 0  
+ADMITE_RUMBO_PRINT PRINT     581   3 0  
+ID_COMPANIA    PRINT     584   4 0  
+ENTITY_UID     ASCII     588  36    
+ID_TIENDA      PRINT     624   7 0  
+PRINT_ASYNC    PRINT     631   3 0  
+PUNTO_ELECTRONICO PRINT     634   3 0  
+CAJA_SECA      PRINT     637   3 0  
+TIENE_CAJA_RUMBO PRINT     640   6 0  
+VTOL_ACTIVO    PRINT     646   6 0  
+ID_CONDICION_VENTA PRINT     652  11 0  
+VERSION3       PRINT     663  12 0  
+SECOND_LEVEL_VERSION3 PRINT     675  12 0  
+MONTO          PRINT     687  21 2  
+CANTIDAD_CUOTAS PRINT     708  12 0  
+IMPORTE_CUOTA  PRINT     720  21 2  
+CANTIDAD_CHEQUES PRINT     741  12 0  
+CONFECCIONADO  PRINT     753   3 0  
+ENTREGA_CUOTA  PRINT     756   3 0  
+ENTREGA        PRINT     759  21 2  
+OBSERVACIONES2 ASCII     780  50    
+ID_CUPON       PRINT     830  21 0  
+ID_MEDIO_PAGO_LOCAL PRINT     851  11 0  
+ID_TOTALES_CONDICION_VENTA PRINT     862  21 0  
+VTO_PRIMER_CUOTA DATETIME  883  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+ID_PEDIDO_VENTA2 PRINT     902  21 0  
+IDX            PRINT     923  12 0  
+ID_ITEM_PEDIDO PRINT     935  21 0  
+ADMITE_GPAY    PRINT     956   3 0  
+gpay_autorizado ASCII     959   1    
+REQUIERE_AUTORIZACION ASCII     960   1    
+ID_GPAY_OUT    PRINT     961  11 0  
+NUMERO_COMERCIO_ALTERNATIVO PRINT     972   3 0  
+ID_TIPO_PRECIO PRINT     975  21 0  
+detalle_cambio_comercio ASCII     996  50    
+ENTREGA_CUOTA_CV_ORIGINAL PRINT    1046   3 0  
+ID_CUENTA_CORRIENTE PRINT    1049  11 0  
+PORCENTAJE_OBLIGATORIO_ASALDAR PRINT    1060   5 0  
+PLAN_GOBIERNO  ASCII    1065  10    
+CODIGO_CBN     ASCII    1075  20    
+AUTORIZADOR    ASCII    1095  20    
+CODIGO_AUTORIZACION_MERCADO_PAGO ASCII    1115  50    
+codigo_mp_ingresado ASCII    1165   5    
+ID_REGLA_BONIFICACION_INTERES PRINT    1170  21 0  
+ID_SOLICITUD_CUOTA_YA ASCII    1191  25    
+CODIGO_PLAN_CUOTA_YA ASCII    1216  25    
+PROVEEDOR      ASCII    1241  35    
+PAGADO_POR_BP  PRINT    1276   3 0  
+ID_COMPROBANTE2 PRINT    1279  21 0  
+NOMBRE_PRODUCTO ASCII    1300  50    
+OPERACION      ASCII    1350  50    
+FECHA_TRANSACCION DATETIME 1400  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+CODIGO_TERMINAL PRINT    1419  21 0  
+CODIGO_PRODUCTO_VTOL ASCII    1440   2    
+NUMERO_CUENTA  ASCII    1442  50    
+MODO_AUTORIZACION ASCII    1492  50    
+VERSION_SOFTWARE ASCII    1542  50    
+METODO_ENTRADA ASCII    1592  50    
+CODIGO_AUTORIZACION PRINT    1642  21 0  
+MONEDA         ASCII    1663  50    
+MONTO2         PRINT    1713  12 2  
+CANTIDAD_CUOTAS2 PRINT    1725  12 0  
+ESTADO_AUTORIZACION ASCII    1737  50    
+NUMERO_LOTE    PRINT    1787  21 0  
+NUMERO_TICKET  PRINT    1808  21 0  
+NUMERO_TICKET_ORIGEN PRINT    1829  21 0  
+FECHA_TRANSACCION_ORIGINAL DATETIME 1850  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+CODIGO_TRANSACCION ASCII    1869  50    
+CODIGO_MEDIO_PAGO PRINT    1919  12 0  
+NOMBRE_TITULAR_TARJETA ASCII    1931  50    
+FECHA_VENCIMIENTO_TARJETA ASCII    1981   6    
+CODIGO_RESPUESTA_VTOL PRINT    1987  12 0  
+MENSAJE_RESPUESTA_VTOL ASCII    1999  50    
+CODIGO_PLAN    PRINT    2049   6 0  
+TIPO_DOCUMENTO_CLIENTE PRINT    2055  12 0  
+ID_CLIENTE     PRINT    2067  12 0  
+IDE_DOCUMENTO_CLIENTE PRINT    2079  12 0  
+NUMERO_DOCUMENTO_CLIENTE ASCII    2091  50    
+NUMERO_CAJA    PRINT    2141  12 0  
+LEGAJO_VENDEDOR PRINT    2153  12 0  
+NUMERO_PEDIDO_VENTA PRINT    2165  12 0  
+CODIGO_LOCAL   ASCII    2177  50    
+CODIGO_TRANSACCION_ORIGINAL ASCII    2227  50    
+NOMBRE_CLIENTE ASCII    2277  50    
+METODO_ENTRADA_PINPAD ASCII    2327  10    
+PINPAD_APPLICATION_ID ASCII    2337  20    
+PINPAD_APPLICATION_NAME ASCII    2357  20    
+monto_adicional PRINT    2377  12 2  
+TIPO_CUENTA    ASCII    2389   1    
+NRO_TRANSACCION COMPUTED             
+ *N 0 1
+ VALUE(ALLTRIM(CODIGO_TRANSACCION);0)
+^LAYOUT   ctes_por_factura                                                    70 D,T.
+cpf_fac_pto_nro PRINT       1   6 0  
+cpf_fac_nro    PRINT       7  11 0  
+cpf_fac_cdg_cod PRINT      18   6 0  
+cpf_fac_stc_cod PRINT      24   6 0  
+cpf_pto_nro    PRINT      30   6 0  
+cpf_nro        PRINT      36  11 0  
+cpf_cdg_cod    PRINT      47   6 0  
+cpf_stc_cod    PRINT      53   6 0  
+cpf_fec_act    DATETIME   59  10   PICTURE "YYYY-MM-DD"  
+Punto          COMPUTED             
+ *N 0 1
+ cpf_fac_pto_nro
+Numero         COMPUTED             
+ *N 0 1
+ cpf_fac_nro
+CDG            COMPUTED             
+ *N 0 1
+ cpf_fac_cdg_cod
+ClaveFAC       COMPUTED             
+ *C 17 1 
+ STRING(Punto;5) + STRING(Numero;9) + STRING(CDG;3)
+^LAYOUT   Transacciones_Reversadas                                            475 D,T.
+!"FacturasCuponRumbo" "Ix_Fac_NRO_TRANSACCION" NRO_TRANSACCION
+!"ctes_por_factura" "Ix_CtesFac_ClaveFAC" ClaveFAC
+ID             PRINT       1  11 0  
+OPERATIONID    PRINT      12  11 0  
+TICKET         PRINT      23  11 0  
+LOTNUMBER      PRINT      34  11 0  
+CARDPREFIX     ASCII      45   6    
+CARDLASTDIGITS ASCII      51   4    
+TRXTYPE        ASCII      55  20    
+PROVIDERNAME   ASCII      75  20    
+AMOUNT         PRINT      95  14 2  
+DESCRIPTION    ASCII     109  50    
+STORENAME      ASCII     159  50    
+OPERATIONSTATUS ASCII     209  20    
+CLIENTDATE     DATETIME  229  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+INPUTMODEPOSVALUE ASCII     248  20    
+PLANCODE       PRINT     268  11 0  
+PAYMENTS       PRINT     279  11 0  
+AUTHORIZATIONCODE ASCII     290  10    
+RESPONSECODE   ASCII     300   5    
+SERIALNUMBER   ASCII     305  20    
+BUSINESSNUMBER ASCII     325  30    
+STORECODE      ASCII     355  10    
+REVERSETRANSACTIONID PRINT     365  11 0  
+ORIGINALTRANSACTIONID PRINT     376  11 0  
+VOIDTRANSACTIONID PRINT     387  11 0  
+CLOSETRANSACTIONID PRINT     398  11 0  
+STATUS         ASCII     409  20    
+TRANSACTIONSTATUS ASCII     429  20    
+ORIGINALTRXTICKETNR PRINT     449  11 0  
+ADDITIONALAMOUNT PRINT     460  14 2  
+NRO_TRANSACCION COMPUTED             
+ *N 0 1
+ OPERATIONID
+Reversa        COMPUTED             ""
+ *C 2 2 
+ "NO" IF REVERSETRANSACTIONID = 0
+ "SI"
+Extraer        COMPUTED             ""
+ *C 2 2 
+ "SI" IF Reversa = "SI"
+ "NO"
+Punto          COMPUTED             
+ *N 0 1
+ FacturasCuponRumbo.NUMERO
+Numero         COMPUTED             
+ *N 0 1
+ FacturasCuponRumbo.NUMERO_CORRELATIVO
+CDG            COMPUTED             
+ *N 0 1
+ FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE
+ClaveFAC       COMPUTED             
+ *C 17 1 
+ STRING(Punto;5) + STRING(Numero;9) + STRING(CDG;3)
+Ver            COMPUTED             ""
+ *C 2 2 
+ "SI" IF FacturasCuponRumbo.NRO_TRANSACCION = 0
+ "NO"
+^LAYOUT   OPERACIONES_REVERSADAS_SIN_NCR                                      2945 D,T.
+ID             PRINT       1  11 0  
+OPERATIONID    PRINT      12  11 0  
+Ticket1        PRINT      23  11 0  
+LOTNUMBER      PRINT      34  11 0  
+CARDPREFIX     ASCII      45   6    
+CARDLASTDIGITS ASCII      51   4    
+TRXTYPE        ASCII      55  20    
+PROVIDERNAME   ASCII      75  20    
+AMOUNT         PRINT      95  14 2  
+DESCRIPTION    ASCII     109  50    
+STORENAME      ASCII     159  50    
+OPERATIONSTATUS ASCII     209  20    
+CLIENTDATE     DATETIME  229  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+INPUTMODEPOSVALUE ASCII     248  20    
+PLANCODE       PRINT     268  11 0  
+PAYMENTS       PRINT     279  11 0  
+AUTHORIZATIONCODE ASCII     290  10    
+RESPONSECODE   ASCII     300   5    
+SERIALNUMBER   ASCII     305  20    
+BUSINESSNUMBER ASCII     325  30    
+STORECODE      ASCII     355  10    
+REVERSETRANSACTIONID PRINT     365  11 0  
+ORIGINALTRANSACTIONID PRINT     376  11 0  
+VOIDTRANSACTIONID PRINT     387  11 0  
+CLOSETRANSACTIONID PRINT     398  11 0  
+STATUS         ASCII     409  20    
+TRANSACTIONSTATUS ASCII     429  20    
+ORIGINALTRXTICKETNR PRINT     449  11 0  
+ADDITIONALAMOUNT PRINT     460  14 2  
+CDG            ACL       474  12 0  
+ClaveFAC       ASCII     486  17    
+Extraer        ASCII     503   2    ""
+NRO_TRANSACCION ACL       505  12 0  
+Numero         ACL       517  12 0  
+Punto          ACL       529  12 0  
+Reversa        ASCII     541   2    ""
+NUMERO_FISCAL  PRINT     543  21 0  
+ID_PEDIDO_VENTA PRINT     564  11 0  
+ES_BIEN_DE_USO PRINT     575   3 0  
+NUMERO_CREDITO PRINT     578  12 0  
+NUMERO_ENTREGA PRINT     590  12 0  
+LEGAJO_CAJERO  PRINT     602  12 0  
+LEGAJO_AUTORIZANTE PRINT     614  12 0  
+CAE_VIGENTE    ASCII     626  30    
+FECHA_VENCIMIENTO_CAE DATETIME  656  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+PUNTO_VENTA_FISCAL PRINT     675  11 0  
+INTERES_FACTURA_COREFIN PRINT     686  21 2  
+NUMERO_FACTURA_COREFIN PRINT     707  12 0  
+PUNTO_FACTURA_COREFIN PRINT     719  21 0  
+ID_COMPROBANTE1 PRINT     740  11 0  
+VERSION        PRINT     751  12 0  
+SECOND_LEVEL_VERSION PRINT     763  12 0  
+ID_PUNTO_DE_VENTA PRINT     775  11 0  
+NUMERO_CORRELATIVO PRINT     786  21 0  
+USERNAME       ASCII     807  50    
+ID_TIPO_COMPROBANTE PRINT     857  12 0  
+FECHA_CREACION DATETIME  869  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+OBSERVACIONES  ASCII     888  50    
+ID_SUB_TIPO_COMPROBANTE PRINT     938  21 0  
+ID_ESTADO      PRINT     959  11 0  
+ID_LOCAL       PRINT     970  11 0  
+ID_COMPROBANTE_ORI PRINT     981  11 0  
+ID_PUNTO_DE_VENTA_ORIGINAL PRINT     992  11 0  
+ID_PUNTO_DE_VENTA2 PRINT    1003  11 0  
+VERSION2       PRINT    1014  12 0  
+SECOND_LEVEL_VERSION2 PRINT    1026  12 0  
+NUMERO2        PRINT    1038  12 0  
+NOMBRE         ASCII    1050  50    
+NUM_CAJA       PRINT    1100   7 0  
+USUARIO        ASCII    1107  13    
+ADMITE_AUTO_PRINT PRINT    1120   3 0  
+ADMITE_RUMBO_PRINT PRINT    1123   3 0  
+ID_COMPANIA    PRINT    1126   4 0  
+ENTITY_UID     ASCII    1130  36    
+ID_TIENDA      PRINT    1166   7 0  
+PRINT_ASYNC    PRINT    1173   3 0  
+PUNTO_ELECTRONICO PRINT    1176   3 0  
+CAJA_SECA      PRINT    1179   3 0  
+TIENE_CAJA_RUMBO PRINT    1182   6 0  
+VTOL_ACTIVO    PRINT    1188   6 0  
+ID_CONDICION_VENTA PRINT    1194  11 0  
+VERSION3       PRINT    1205  12 0  
+SECOND_LEVEL_VERSION3 PRINT    1217  12 0  
+CANTIDAD_CUOTAS PRINT    1250  12 0  
+IMPORTE_CUOTA  PRINT    1262  21 2  
+CANTIDAD_CHEQUES PRINT    1283  12 0  
+CONFECCIONADO  PRINT    1295   3 0  
+ENTREGA_CUOTA  PRINT    1298   3 0  
+ENTREGA        PRINT    1301  21 2  
+OBSERVACIONES2 ASCII    1322  50    
+ID_CUPON       PRINT    1372  21 0  
+ID_MEDIO_PAGO_LOCAL PRINT    1393  11 0  
+ID_TOTALES_CONDICION_VENTA PRINT    1404  21 0  
+VTO_PRIMER_CUOTA DATETIME 1425  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+ID_PEDIDO_VENTA2 PRINT    1444  21 0  
+IDX            PRINT    1465  12 0  
+ID_ITEM_PEDIDO PRINT    1477  21 0  
+ADMITE_GPAY    PRINT    1498   3 0  
+gpay_autorizado ASCII    1501   1    
+REQUIERE_AUTORIZACION ASCII    1502   1    
+ID_GPAY_OUT    PRINT    1503  11 0  
+NUMERO_COMERCIO_ALTERNATIVO PRINT    1514   3 0  
+ID_TIPO_PRECIO PRINT    1517  21 0  
+detalle_cambio_comercio ASCII    1538  50    
+ENTREGA_CUOTA_CV_ORIGINAL PRINT    1588   3 0  
+ID_CUENTA_CORRIENTE PRINT    1591  11 0  
+PORCENTAJE_OBLIGATORIO_ASALDAR PRINT    1602   5 0  
+PLAN_GOBIERNO  ASCII    1607  10    
+CODIGO_CBN     ASCII    1617  20    
+AUTORIZADOR    ASCII    1637  20    
+CODIGO_AUTORIZACION_MERCADO_PAGO ASCII    1657  50    
+codigo_mp_ingresado ASCII    1707   5    
+ID_REGLA_BONIFICACION_INTERES PRINT    1712  21 0  
+ID_SOLICITUD_CUOTA_YA ASCII    1733  25    
+CODIGO_PLAN_CUOTA_YA ASCII    1758  25    
+PAGADO_POR_BP  PRINT    1818   3 0  
+ID_COMPROBANTE2 PRINT    1821  21 0  
+NOMBRE_PRODUCTO ASCII    1842  50    
+OPERACION      ASCII    1892  50    
+FECHA_TRANSACCION DATETIME 1942  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+CODIGO_TERMINAL PRINT    1961  21 0  
+CODIGO_PRODUCTO_VTOL ASCII    1982   2    
+NUMERO_CUENTA  ASCII    1984  50    
+MODO_AUTORIZACION ASCII    2034  50    
+VERSION_SOFTWARE ASCII    2084  50    
+METODO_ENTRADA ASCII    2134  50    
+CODIGO_AUTORIZACION PRINT    2184  21 0  
+MONEDA         ASCII    2205  50    
+MONTO2         PRINT    2255  12 2  
+CANTIDAD_CUOTAS2 PRINT    2267  12 0  
+ESTADO_AUTORIZACION ASCII    2279  50    
+NUMERO_LOTE    PRINT    2329  21 0  
+NUMERO_TICKET  PRINT    2350  21 0  
+NUMERO_TICKET_ORIGEN PRINT    2371  21 0  
+FECHA_TRANSACCION_ORIGINAL DATETIME 2392  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+CODIGO_TRANSACCION ASCII    2411  50    
+CODIGO_MEDIO_PAGO PRINT    2461  12 0  
+NOMBRE_TITULAR_TARJETA ASCII    2473  50    
+FECHA_VENCIMIENTO_TARJETA ASCII    2523   6    
+CODIGO_RESPUESTA_VTOL PRINT    2529  12 0  
+MENSAJE_RESPUESTA_VTOL ASCII    2541  50    
+CODIGO_PLAN    PRINT    2591   6 0  
+TIPO_DOCUMENTO_CLIENTE PRINT    2597  12 0  
+ID_CLIENTE     PRINT    2609  12 0  
+IDE_DOCUMENTO_CLIENTE PRINT    2621  12 0  
+NUMERO_DOCUMENTO_CLIENTE ASCII    2633  50    
+NUMERO_CAJA    PRINT    2683  12 0  
+LEGAJO_VENDEDOR PRINT    2695  12 0  
+NUMERO_PEDIDO_VENTA PRINT    2707  12 0  
+CODIGO_LOCAL   ASCII    2719  50    
+CODIGO_TRANSACCION_ORIGINAL ASCII    2769  50    
+NOMBRE_CLIENTE ASCII    2819  50    
+METODO_ENTRADA_PINPAD ASCII    2869  10    
+PINPAD_APPLICATION_ID ASCII    2879  20    
+PINPAD_APPLICATION_NAME ASCII    2899  20    
+monto_adicional PRINT    2919  12 2  
+TIPO_CUENTA    ASCII    2931   1    
+NRO_TRANSACCION2 ACL      2932  12 0  
+Ver            ASCII    2944   2    ""
+Centro         COMPUTED             
+ *C 4 1 
+ "M" + SUBSTR(STORECODE;8;3)
+NomLocal       COMPUTED             
+ *C 50 1 
+ ALLTRIM(STORENAME)
+Fecha          COMPUTED             
+ *C 10 1 
+ SUBSTR(DATE(CLIENTDATE);1;10)
+FechaHora      COMPUTED             
+ *D 1 26
+ CLIENTDATE
+Lote           COMPUTED             
+ *N 0 1
+ LOTNUMBER
+Ticket         COMPUTED             
+ *N 0 1
+ TICKET1
+Tarjeta        COMPUTED             
+ *C 20 1 
+ PROVIDERNAME
+PrimerosDig    COMPUTED             
+ *C 6 1 
+ CARDPREFIX
+UltDig         COMPUTED             
+ *C 4 1 
+ CARDLASTDIGITS
+ModoIng        COMPUTED             
+ *C 20 1 
+ INPUTMODEPOSVALUE
+Monto          COMPUTED             
+ *N 2 1
+ AMOUNT
+MontoAdicional COMPUTED             
+ *N 2 1
+ ADDITIONALAMOUNT
+ReverseID      COMPUTED             
+ *N 0 1
+ REVERSETRANSACTIONID
+Proveedor      COMPUTED             
+ *C 20 1 
+ PROVIDERNAME
+IdComprobante  COMPUTED             
+ *N 0 1
+ ID_COMPROBANTE1
+TipoDoc        COMPUTED             
+ *N 0 1
+ TIPO_DOCUMENTO_CLIENTE
+NumeroDoc      COMPUTED             
+ *C 50 1 
+ NUMERO_DOCUMENTO_CLIENTE
+NombreCliente  COMPUTED             
+ *C 50 1 
+ NOMBRE_CLIENTE
+NombreTitular  COMPUTED             
+ *C 50 1 
+ NOMBRE_TITULAR_TARJETA
+NumPedidoVenta COMPUTED             
+ *N 0 1
+ NUMERO_PEDIDO_VENTA
+MetodoEntradaPINPAD COMPUTED             
+ *C 10 1 
+ METODO_ENTRADA_PINPAD
+^LAYOUT   OPERACIONES_REVERSADAS_SIN_NCR__02052022_08052022_                  305 D,T.
+Centro         ASCII       1   4    
+NomLocal       ASCII       5  50    
+FechaHora      DATETIME   55  15   PICTURE "YYYYMMDD hhmmss" WIDTH 27  
+Lote           ACL        70  12 0  
+Ticket         ACL        82  12 0  
+Tarjeta        ASCII      94  20    
+PrimerosDig    ASCII     114   6    
+UltDig         ASCII     120   4    
+Monto          ACL       124  12 2  
+MontoAdicional ACL       136  12 2  
+Punto          ACL       148  12 0  
+Numero         ACL       160  12 0  
+CDG            ACL       172  12 0  
+TipoDoc        ACL       184  12 0  
+NumeroDoc      ASCII     196  50    
+NombreCliente  ASCII     246  50    
+MetodoEntradaPINPAD ASCII     296  10    
+^LAYOUT   vw_transaction                                                      475 D,T.
+ID             PRINT       1  11 0  
+OPERATIONID    PRINT      12  11 0  
+TICKET         PRINT      23  11 0  
+LOTNUMBER      PRINT      34  11 0  
+CARDPREFIX     ASCII      45   6    
+CARDLASTDIGITS ASCII      51   4    
+TRXTYPE        ASCII      55  20    
+PROVIDERNAME   ASCII      75  20    
+AMOUNT         PRINT      95  14 2  
+DESCRIPTION    ASCII     109  50    
+STORENAME      ASCII     159  50    
+OPERATIONSTATUS ASCII     209  20    
+CLIENTDATE     DATETIME  229  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+INPUTMODEPOSVALUE ASCII     248  20    
+PLANCODE       PRINT     268  11 0  
+PAYMENTS       PRINT     279  11 0  
+AUTHORIZATIONCODE ASCII     290  10    
+RESPONSECODE   ASCII     300   5    
+SERIALNUMBER   ASCII     305  20    
+BUSINESSNUMBER ASCII     325  30    
+STORECODE      ASCII     355  10    
+REVERSETRANSACTIONID PRINT     365  11 0  
+ORIGINALTRANSACTIONID PRINT     376  11 0  
+VOIDTRANSACTIONID PRINT     387  11 0  
+CLOSETRANSACTIONID PRINT     398  11 0  
+STATUS         ASCII     409  20    
+TRANSACTIONSTATUS ASCII     429  20    
+ORIGINALTRXTICKETNR PRINT     449  11 0  
+ADDITIONALAMOUNT PRINT     460  14 2  
+NRO_TRANSACCION COMPUTED             
+ *N 0 1
+ OPERATIONID
+Reversa        COMPUTED             ""
+ *C 2 2 
+ "NO" IF REVERSETRANSACTIONID = 0
+ "SI"
+Extraer        COMPUTED             ""
+ *C 2 2 
+ "SI" IF Reversa = "SI"
+ "NO"
+^FOLDER   Tablas                                                               1617128385
+[PARENT_FOLDER_ID] 0
+^BATCH    S00_AX                             
+[PARENT_FOLDER_ID] 0
+COMMENT
+//ANALYTIC OPERACIONES_REVERSADAS_SIN_NCR
+//RESULT LOG
+//RESULT TABLE OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)
+//RESULT FILE *.XLSX
+END
+
+SET SAFETY OFF
+
+SET FOLDER /Tablas
+
+DO S01_Inicializar 
+DO S02_Importar
+DO S03_Relacionar
+
+
+SET SAFETY ON
+^BATCH    S04_Notificar                      
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+Hora=TIME(NOW())
+Saludo = "Buenas Noches" IF Hora >= "20:00:00" OR Hora < "06:00:00"
+Saludo = "Buenos Dias" IF Hora >= "06:00:00" AND Hora < "13:00:00"
+Saludo = "Buenas Tardes" IF Hora >= "13:00:00" AND Hora < "20:00:00"
+
+OPEN OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)
+
+EXPORT FIELDS Centro NomLocal FechaHora Lote Ticket Tarjeta PrimerosDig UltDig Monto MontoAdicional Punto Numero CDG TipoDoc NumeroDoc NombreCliente MetodoEntradaPINPAD  XLSX TO "OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)"
+
+Remitente="miguel.cabrera@grupocarsa.com"
+Contraseña="B34AD7E1F23D01842AE000BC2D6BD81E3717903B6057016AF5D4E9251D53BFBD"
+Ruta="10.4.100.28"
+Para="ControlTarjetasExternas@grupocarsa.com"
+CC="miguel.cabrera@grupocarsa.com, debora.ogallar@grupocarsa.com"
+BCC=""
+Asunto="OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)"
+Texto= '%Saludo%'+CHR(10)+CHR(13)+CHR(13)+"Se adjunta detalle de Operaciones Reversadas Sin Nota de Credito."+CHR(10)+CHR(13)+CHR(13)+"Saludos."+CHR(10)+CHR(13)+CHR(13)+"Miguel Angel Cabrera"+CHR(10)+CHR(13)+" Auditoria Operativa"
+Adjunto="OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%).XLSX" 
+
+NOTIFY USER "%Remitente%" PASSWORD "%Contraseña%" MAILBOX "%Ruta%" ADDRESS "%Para%" CC "%CC%" BCC "%BCC%" SUBJECT "%Asunto%" MESSAGE "%Texto%" ATTACHMENT "%Adjunto%" 
+
+SET SAFETY ON
+^BATCH    S03_Relacionar                     
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+OPEN ctes_por_factura
+
+DELETE FIELD Punto OK
+DEFINE FIELD Punto COMPUTED cpf_fac_pto_nro
+
+DELETE FIELD Numero OK
+DEFINE FIELD Numero COMPUTED cpf_fac_nro
+
+DELETE FIELD CDG OK
+DEFINE FIELD CDG COMPUTED cpf_fac_cdg_cod
+
+DELETE FIELD ClaveFAC OK
+DEFINE FIELD ClaveFAC COMPUTED STRING(Punto;5) + STRING(Numero;9) + STRING(CDG;3)
+
+INDEX ON ClaveFAC TO "Ix_CtesFac_ClaveFAC"
+
+OPEN FacturasCuponRumbo
+
+DELETE FIELD NRO_TRANSACCION OK
+DEFINE FIELD NRO_TRANSACCION COMPUTED VALUE(ALLTRIM(CODIGO_TRANSACCION);0)
+
+INDEX ON NRO_TRANSACCION TO "Ix_Fac_NRO_TRANSACCION"
+
+OPEN vw_transaction
+
+DELETE FIELD NRO_TRANSACCION OK
+DEFINE FIELD NRO_TRANSACCION COMPUTED OPERATIONID
+
+DELETE FIELD Reversa OK
+DEFINE FIELD Reversa COMPUTED
+""
+"NO" IF REVERSETRANSACTIONID = 0
+"SI" 
+
+DELETE FIELD Extraer OK
+DEFINE FIELD Extraer COMPUTED
+""
+"SI" IF Reversa = "SI"
+"NO"
+
+EXTRACT RECORD IF Extraer = "SI" TO "Transacciones_Reversadas" 
+
+OPEN Transacciones_Reversadas
+
+DEFINE RELATION NRO_TRANSACCION WITH FacturasCuponRumbo INDEX Ix_Fac_NRO_TRANSACCION
+
+OPEN Transacciones_Reversadas
+
+DELETE FIELD Punto OK
+DEFINE FIELD Punto COMPUTED FacturasCuponRumbo.NUMERO
+
+DELETE FIELD Numero OK
+DEFINE FIELD Numero COMPUTED FacturasCuponRumbo.NUMERO_CORRELATIVO
+
+DELETE FIELD CDG OK
+DEFINE FIELD CDG COMPUTED FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE
+
+DELETE FIELD ClaveFAC OK
+DEFINE FIELD ClaveFAC COMPUTED STRING(Punto;5) + STRING(Numero;9) + STRING(CDG;3)
+
+DEFINE RELATION ClaveFAC WITH ctes_por_factura INDEX Ix_CtesFac_ClaveFAC
+
+DELETE FIELD Ver OK
+DEFINE FIELD Ver COMPUTED 
+""
+"SI" IF FacturasCuponRumbo.NRO_TRANSACCION = 0
+"NO"
+
+COMMENT
+EXTRACT FIELDS CLIENTDATE AS "Fecha" OPERATIONID AS "OperacionID" ID AS "ID" TICKET AS "Ticket" PROVIDERNAME AS "Tarjeta" CARDPREFIX AS "PrimerosDig" CARDLASTDIGITS AS "UltDig" INPUTMODEPOSVALUE AS "ModoIng"  PLANCODE AS "Plan" PAYMENTS AS "Cuotas" AUTHORIZATIONCODE AS "CodAutoriz" AMOUNT AS "Monto" RESPONSECODE DESCRIPTION OPERATIONSTATUS SERIALNUMBER AS "NumSerie" BUSINESSNUMBER AS "NumNegocio" STORECODE AS "CodLocal" STORENAME AS "NomLocal" REVERSETRANSACTIONID AS "ReverseTransacID" ORIGINALTRANSACTIONID VOIDTRANSACTIONID CLOSETRANSACTIONID STATUS TRANSACTIONSTATUS LOTNUMBER AS "NumLote" ORIGINALTRXTICKETNR ADDITIONALAMOUNT closedId ClosedFinancialTransaction_id ClosedFinancialTransaction_operationId currencyId currencyCode currencyPosCode terminalId ClosedFinancialTransaction_serialNumber ClosedFinancialTransaction_trxType ClosedFinancialTransaction_status processingCode ClosedFinancialTransaction_ticket trace ClosedFinancialTransaction_lotNumber ClosedFinancialTransaction_amount expirationDate rrn captureDate transmissionDate ClosedFinancialTransaction_businessNumber posCondition ClosedFinancialTransaction_authorizationCode preauthorizationCode cardNumber ClosedFinancialTransaction_cardPrefix ClosedFinancialTransaction_cardLastDigits ClosedFinancialTransaction_payments ClosedFinancialTransaction_responseCode responseMessage companyId companyName store ClosedFinancialTransaction_storeName ClosedFinancialTransaction_storeCode channelId channelName messageCode ClosedFinancialTransaction_clientDate ClosedFinancialTransaction_originalTrxTicketNr paymentPlanId providerId ClosedFinancialTransaction_providerName AS "Proveedor" lotDefinitionId lotDefinitionDescription paymentCondition ClosedFinancialTransaction_transactionStatus authorizationMode ClosedFinancialTransaction_additionalAmount inputModeId ClosedFinancialTransaction_inputModePosValue periodId controlInterfaceId ClosedFinancialTransaction_voidTransactionId ClosedFinancialTransaction_reverseTransactionId AS "Reverse" differDate conciliatorControlInterfaceId ClosedFinancialTransaction_originalTransactionId trxId ClosedFinancialTransaction_operationStatus ClosedFinancialTransaction_planCode nodeId nodeCode cancellationType consoleTrx cardTypeId cardTypeDescription AS "TipoTarjeta" ClosedFinancialTransaction_closeTransactionId reverse emvConfirmed advicePinpadResponseCode pinpadRejected advicePinpadAutCode adviceResponseCode encryptedPassId additionalInterfaceId1 additionalInterfaceId2 additionalInterfaceId3 posPeriod turn operatorCode operatorName sellerCode sellerName attentionMode emvTefData acquirerRefData trxReferenceNumber AS "NumRefTransaccion" errorAmount additionalMessageData providerCode originalClusterNode authorizerClusterNode C_Centro AS "Centro" C_Fecha AS "Fecha" C_Lote AS "Lote" C_Ticket AS "Ticket" CDG ClaveFAC Extraer Numero Punto Reversa FacturasCuponRumbo.ID_COMPROBANTE AS "IdComprobante" FacturasCuponRumbo.VERSION FacturasCuponRumbo.SECOND_LEVEL_VERSION FacturasCuponRumbo.ID_PUNTO_DE_VENTA FacturasCuponRumbo.NUMERO_CORRELATIVO FacturasCuponRumbo.USERNAME FacturasCuponRumbo.ID_TIPO_COMPROBANTE FacturasCuponRumbo.FECHA_CREACION FacturasCuponRumbo.OBSERVACIONES FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE FacturasCuponRumbo.ID_ESTADO FacturasCuponRumbo.ID_LOCAL FacturasCuponRumbo.ID_COMPROBANTE_ORI FacturasCuponRumbo.ID_PUNTO_DE_VENTA_ORIGINAL FacturasCuponRumbo.PUNTO_DE_VENTA_ID_PUNTO_DE_VENTA FacturasCuponRumbo.PUNTO_DE_VENTA_VERSION FacturasCuponRumbo.PUNTO_DE_VENTA_SECOND_LEVEL_VERSION FacturasCuponRumbo.NUMERO FacturasCuponRumbo.NOMBRE FacturasCuponRumbo.NUM_CAJA FacturasCuponRumbo.USUARIO FacturasCuponRumbo.ADMITE_AUTO_PRINT FacturasCuponRumbo.ADMITE_RUMBO_PRINT FacturasCuponRumbo.ID_COMPANIA FacturasCuponRumbo.ENTITY_UID FacturasCuponRumbo.ID_TIENDA FacturasCuponRumbo.PRINT_ASYNC FacturasCuponRumbo.PUNTO_ELECTRONICO FacturasCuponRumbo.CAJA_SECA FacturasCuponRumbo.TIENE_CAJA_RUMBO FacturasCuponRumbo.VTOL_ACTIVO FacturasCuponRumbo.NUMERO_FISCAL FacturasCuponRumbo.ID_PEDIDO_VENTA FacturasCuponRumbo.ES_BIEN_DE_USO FacturasCuponRumbo.NUMERO_CREDITO FacturasCuponRumbo.NUMERO_ENTREGA FacturasCuponRumbo.LEGAJO_CAJERO FacturasCuponRumbo.LEGAJO_AUTORIZANTE FacturasCuponRumbo.CAE_VIGENTE FacturasCuponRumbo.FECHA_VENCIMIENTO_CAE FacturasCuponRumbo.PUNTO_VENTA_FISCAL FacturasCuponRumbo.INTERES_FACTURA_COREFIN FacturasCuponRumbo.NUMERO_FACTURA_COREFIN FacturasCuponRumbo.PUNTO_FACTURA_COREFIN FacturasCuponRumbo.PEDIDO_VENTA_ID_PEDIDO_VENTA FacturasCuponRumbo.PEDIDO_VENTA_VERSION FacturasCuponRumbo.PEDIDO_VENTA_SECOND_LEVEL_VERSION FacturasCuponRumbo.NUMERO_PEDIDO FacturasCuponRumbo.PEDIDO_VENTA_FECHA_CREACION FacturasCuponRumbo.ID_CLIENTE FacturasCuponRumbo.PEDIDO_VENTA_ID_ESTADO FacturasCuponRumbo.ID_BONIFICACION FacturasCuponRumbo.PEDIDO_VENTA_ID_LOCAL FacturasCuponRumbo.ID_TOTALES FacturasCuponRumbo.LIMITE_BONIF FacturasCuponRumbo.ID_TIPO_PRECIO FacturasCuponRumbo.ID_CLIENTE_FACTURA_SNAPSHOT FacturasCuponRumbo.ID_AUT_CAMBIO_CRM FacturasCuponRumbo.ID_PEDIDO_VTA_MANUAL FacturasCuponRumbo.ID_TIPO_PEDIDO_VENTA FacturasCuponRumbo.ID_RUMBO_CABECERA FacturasCuponRumbo.BIEN_DE_USO FacturasCuponRumbo.VERSION_PDV_GENERADOR FacturasCuponRumbo.REQUIERE_VALIDACION_OFERTAS FacturasCuponRumbo.PEDIDO_FISCAL FacturasCuponRumbo.TIPO_ESTADO_BUSINESS_ID FacturasCuponRumbo.PEDIDO_VENTA_USUARIO FacturasCuponRumbo.APLICA_SALDO_DEUDOR FacturasCuponRumbo.SALDO_DEUDOR_ACTIVO FacturasCuponRumbo.AUTORIZADOR_SALDO_DEUDOR FacturasCuponRumbo.ID_CLIENTE_SNAPSHOT FacturasCuponRumbo.NUMERO_CARRITO FacturasCuponRumbo.ID_MOTO FacturasCuponRumbo.CODIGO_TIENDA_RETIRO FacturasCuponRumbo.FECHA_CREACION_CARRITO FacturasCuponRumbo.VENTA_VERDE FacturasCuponRumbo.ID_SOLICITUD_CREDITO_DIRECTO FacturasCuponRumbo.VENTA_CONSIGNACION FacturasCuponRumbo.TIENDA_ID_TIENDA FacturasCuponRumbo.TIENDA_VERSION FacturasCuponRumbo.TIENDA_SECOND_LEVEL_VERSION FacturasCuponRumbo.TIENDA_DESCRIPCION FacturasCuponRumbo.CODIGO_SAP FacturasCuponRumbo.CODIGO FacturasCuponRumbo.ID_ZONA FacturasCuponRumbo.ID_ALMACEN FacturasCuponRumbo.ID_DOMICILIO FacturasCuponRumbo.FECHA_BAJA FacturasCuponRumbo.HORARIO FacturasCuponRumbo.MAIL_CONTACTO FacturasCuponRumbo.ID_ITEM_PEDIDO FacturasCuponRumbo.ITEM_PEDIDO_VERSION FacturasCuponRumbo.ITEM_PEDIDO_SECOND_LEVEL_VERSION FacturasCuponRumbo.CANTIDAD FacturasCuponRumbo.SUBTOTAL FacturasCuponRumbo.ORDEN FacturasCuponRumbo.ID_PRODUCTO FacturasCuponRumbo.ITEM_PEDIDO_ID_BONIFICACION FacturasCuponRumbo.ID_VENDEDOR FacturasCuponRumbo.ID_TOTALES_ITEM FacturasCuponRumbo.ID_ITEM_PRECIO FacturasCuponRumbo.ITEM_PEDIDO_ID FacturasCuponRumbo.IDX FacturasCuponRumbo.ITEM_PEDIDO_ID_PEDIDO_VENTA FacturasCuponRumbo.IDX_ITEM_OFERTA FacturasCuponRumbo.ID_ITEM_PRECIO_LISTA FacturasCuponRumbo.ES_REGALO FacturasCuponRumbo.ID_TIPO_ENTREGA FacturasCuponRumbo.PERMITE_MODIFICAR_ALMACEN FacturasCuponRumbo.REQUIERE_AUTORIZACIONES FacturasCuponRumbo.ID_FLETE FacturasCuponRumbo.NRO_ITEM_CARRITO FacturasCuponRumbo.CODIGO_PRODUCTO FacturasCuponRumbo.DETALLE_PRODUCTO FacturasCuponRumbo.BONIFICABLE FacturasCuponRumbo.CODIGO_GIFT_CARD FacturasCuponRumbo.MARKUP FacturasCuponRumbo.ID_COMPROBANTE2 FacturasCuponRumbo.NOMBRE_PRODUCTO FacturasCuponRumbo.OPERACION FacturasCuponRumbo.FECHA_TRANSACCION FacturasCuponRumbo.CODIGO_TERMINAL FacturasCuponRumbo.CODIGO_PRODUCTO_VTOL FacturasCuponRumbo.NUMERO_CUENTA FacturasCuponRumbo.MODO_AUTORIZACION FacturasCuponRumbo.VERSION_SOFTWARE FacturasCuponRumbo.METODO_ENTRADA FacturasCuponRumbo.CODIGO_AUTORIZACION FacturasCuponRumbo.MONEDA FacturasCuponRumbo.MONTO FacturasCuponRumbo.CANTIDAD_CUOTAS FacturasCuponRumbo.ESTADO_AUTORIZACION FacturasCuponRumbo.NUMERO_LOTE FacturasCuponRumbo.NUMERO_TICKET FacturasCuponRumbo.NUMERO_TICKET_ORIGEN FacturasCuponRumbo.FECHA_TRANSACCION_ORIGINAL FacturasCuponRumbo.CODIGO_TRANSACCION FacturasCuponRumbo.CODIGO_MEDIO_PAGO AS "CodMedioPago" FacturasCuponRumbo.NOMBRE_TITULAR_TARJETA AS "NombreTitular"  FacturasCuponRumbo.FECHA_VENCIMIENTO_TARJETA FacturasCuponRumbo.CODIGO_RESPUESTA_VTOL FacturasCuponRumbo.MENSAJE_RESPUESTA_VTOL FacturasCuponRumbo.CODIGO_PLAN FacturasCuponRumbo.TIPO_DOCUMENTO_CLIENTE AS "TipoDoc" FacturasCuponRumbo.ID_CLIENTE2 FacturasCuponRumbo.IDE_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_DOCUMENTO_CLIENTE AS "NumeroDoc" FacturasCuponRumbo.NUMERO_CAJA FacturasCuponRumbo.LEGAJO_VENDEDOR FacturasCuponRumbo.NUMERO_PEDIDO_VENTA AS "NumPedidoVenta"  FacturasCuponRumbo.CODIGO_LOCAL FacturasCuponRumbo.CODIGO_TRANSACCION_ORIGINAL FacturasCuponRumbo.NOMBRE_CLIENTE FacturasCuponRumbo.METODO_ENTRADA_PINPAD AS "MetodoEntradaPINPAD" FacturasCuponRumbo.PINPAD_APPLICATION_ID FacturasCuponRumbo.PINPAD_APPLICATION_NAME FacturasCuponRumbo.monto_adicional AS "MontoAdicional" FacturasCuponRumbo.TIPO_CUENTA FacturasCuponRumbo.C_Centro FacturasCuponRumbo.C_Clave FacturasCuponRumbo.C_DNI FacturasCuponRumbo.C_Fecha FacturasCuponRumbo.C_Lote FacturasCuponRumbo.C_Ticket Ver IF ctes_por_factura.cpf_fac_nro = 0 TO "OPERACIONES_REVERSADAS_SIN_NCR" 
+OPEN OPERACIONES_REVERSADAS_SIN_NCR
+END
+
+EXTRACT FIELDS ID OPERATIONID TICKET AS "Ticket1" LOTNUMBER CARDPREFIX CARDLASTDIGITS TRXTYPE PROVIDERNAME AMOUNT DESCRIPTION STORENAME OPERATIONSTATUS CLIENTDATE INPUTMODEPOSVALUE PLANCODE PAYMENTS AUTHORIZATIONCODE RESPONSECODE SERIALNUMBER BUSINESSNUMBER STORECODE REVERSETRANSACTIONID ORIGINALTRANSACTIONID VOIDTRANSACTIONID CLOSETRANSACTIONID STATUS TRANSACTIONSTATUS ORIGINALTRXTICKETNR ADDITIONALAMOUNT CDG ClaveFAC Extraer NRO_TRANSACCION Numero Punto Reversa FacturasCuponRumbo.NUMERO_FISCAL FacturasCuponRumbo.ID_PEDIDO_VENTA FacturasCuponRumbo.ES_BIEN_DE_USO FacturasCuponRumbo.NUMERO_CREDITO FacturasCuponRumbo.NUMERO_ENTREGA FacturasCuponRumbo.LEGAJO_CAJERO FacturasCuponRumbo.LEGAJO_AUTORIZANTE FacturasCuponRumbo.CAE_VIGENTE FacturasCuponRumbo.FECHA_VENCIMIENTO_CAE FacturasCuponRumbo.PUNTO_VENTA_FISCAL FacturasCuponRumbo.INTERES_FACTURA_COREFIN FacturasCuponRumbo.NUMERO_FACTURA_COREFIN FacturasCuponRumbo.PUNTO_FACTURA_COREFIN FacturasCuponRumbo.ID_COMPROBANTE AS "ID_COMPROBANTE1" FacturasCuponRumbo.VERSION FacturasCuponRumbo.SECOND_LEVEL_VERSION FacturasCuponRumbo.ID_PUNTO_DE_VENTA FacturasCuponRumbo.NUMERO_CORRELATIVO FacturasCuponRumbo.USERNAME FacturasCuponRumbo.ID_TIPO_COMPROBANTE FacturasCuponRumbo.FECHA_CREACION FacturasCuponRumbo.OBSERVACIONES FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE FacturasCuponRumbo.ID_ESTADO FacturasCuponRumbo.ID_LOCAL FacturasCuponRumbo.ID_COMPROBANTE_ORI FacturasCuponRumbo.ID_PUNTO_DE_VENTA_ORIGINAL FacturasCuponRumbo.ID_PUNTO_DE_VENTA2 FacturasCuponRumbo.VERSION2 FacturasCuponRumbo.SECOND_LEVEL_VERSION2 FacturasCuponRumbo.NUMERO FacturasCuponRumbo.NOMBRE FacturasCuponRumbo.NUM_CAJA FacturasCuponRumbo.USUARIO FacturasCuponRumbo.ADMITE_AUTO_PRINT FacturasCuponRumbo.ADMITE_RUMBO_PRINT FacturasCuponRumbo.ID_COMPANIA FacturasCuponRumbo.ENTITY_UID FacturasCuponRumbo.ID_TIENDA FacturasCuponRumbo.PRINT_ASYNC FacturasCuponRumbo.PUNTO_ELECTRONICO FacturasCuponRumbo.CAJA_SECA FacturasCuponRumbo.TIENE_CAJA_RUMBO FacturasCuponRumbo.VTOL_ACTIVO FacturasCuponRumbo.ID_CONDICION_VENTA FacturasCuponRumbo.VERSION3 FacturasCuponRumbo.SECOND_LEVEL_VERSION3 FacturasCuponRumbo.MONTO FacturasCuponRumbo.CANTIDAD_CUOTAS FacturasCuponRumbo.IMPORTE_CUOTA FacturasCuponRumbo.CANTIDAD_CHEQUES FacturasCuponRumbo.CONFECCIONADO FacturasCuponRumbo.ENTREGA_CUOTA FacturasCuponRumbo.ENTREGA FacturasCuponRumbo.OBSERVACIONES2 FacturasCuponRumbo.ID_CUPON FacturasCuponRumbo.ID_MEDIO_PAGO_LOCAL FacturasCuponRumbo.ID_TOTALES_CONDICION_VENTA FacturasCuponRumbo.VTO_PRIMER_CUOTA FacturasCuponRumbo.ID_PEDIDO_VENTA2 FacturasCuponRumbo.IDX FacturasCuponRumbo.ID_ITEM_PEDIDO FacturasCuponRumbo.ADMITE_GPAY FacturasCuponRumbo.gpay_autorizado FacturasCuponRumbo.REQUIERE_AUTORIZACION FacturasCuponRumbo.ID_GPAY_OUT FacturasCuponRumbo.NUMERO_COMERCIO_ALTERNATIVO FacturasCuponRumbo.ID_TIPO_PRECIO FacturasCuponRumbo.detalle_cambio_comercio FacturasCuponRumbo.ENTREGA_CUOTA_CV_ORIGINAL FacturasCuponRumbo.ID_CUENTA_CORRIENTE FacturasCuponRumbo.PORCENTAJE_OBLIGATORIO_ASALDAR FacturasCuponRumbo.PLAN_GOBIERNO FacturasCuponRumbo.CODIGO_CBN FacturasCuponRumbo.AUTORIZADOR FacturasCuponRumbo.CODIGO_AUTORIZACION_MERCADO_PAGO FacturasCuponRumbo.codigo_mp_ingresado FacturasCuponRumbo.ID_REGLA_BONIFICACION_INTERES FacturasCuponRumbo.ID_SOLICITUD_CUOTA_YA FacturasCuponRumbo.CODIGO_PLAN_CUOTA_YA FacturasCuponRumbo.PROVEEDOR FacturasCuponRumbo.PAGADO_POR_BP FacturasCuponRumbo.ID_COMPROBANTE2 FacturasCuponRumbo.NOMBRE_PRODUCTO FacturasCuponRumbo.OPERACION FacturasCuponRumbo.FECHA_TRANSACCION FacturasCuponRumbo.CODIGO_TERMINAL FacturasCuponRumbo.CODIGO_PRODUCTO_VTOL FacturasCuponRumbo.NUMERO_CUENTA FacturasCuponRumbo.MODO_AUTORIZACION FacturasCuponRumbo.VERSION_SOFTWARE FacturasCuponRumbo.METODO_ENTRADA FacturasCuponRumbo.CODIGO_AUTORIZACION FacturasCuponRumbo.MONEDA FacturasCuponRumbo.MONTO2 FacturasCuponRumbo.CANTIDAD_CUOTAS2 FacturasCuponRumbo.ESTADO_AUTORIZACION FacturasCuponRumbo.NUMERO_LOTE FacturasCuponRumbo.NUMERO_TICKET FacturasCuponRumbo.NUMERO_TICKET_ORIGEN FacturasCuponRumbo.FECHA_TRANSACCION_ORIGINAL FacturasCuponRumbo.CODIGO_TRANSACCION FacturasCuponRumbo.CODIGO_MEDIO_PAGO FacturasCuponRumbo.NOMBRE_TITULAR_TARJETA FacturasCuponRumbo.FECHA_VENCIMIENTO_TARJETA FacturasCuponRumbo.CODIGO_RESPUESTA_VTOL FacturasCuponRumbo.MENSAJE_RESPUESTA_VTOL FacturasCuponRumbo.CODIGO_PLAN FacturasCuponRumbo.TIPO_DOCUMENTO_CLIENTE FacturasCuponRumbo.ID_CLIENTE FacturasCuponRumbo.IDE_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_CAJA FacturasCuponRumbo.LEGAJO_VENDEDOR FacturasCuponRumbo.NUMERO_PEDIDO_VENTA FacturasCuponRumbo.CODIGO_LOCAL FacturasCuponRumbo.CODIGO_TRANSACCION_ORIGINAL FacturasCuponRumbo.NOMBRE_CLIENTE FacturasCuponRumbo.METODO_ENTRADA_PINPAD FacturasCuponRumbo.PINPAD_APPLICATION_ID FacturasCuponRumbo.PINPAD_APPLICATION_NAME FacturasCuponRumbo.monto_adicional FacturasCuponRumbo.TIPO_CUENTA FacturasCuponRumbo.NRO_TRANSACCION Ver IF ctes_por_factura.cpf_fac_nro = 0 AND Numero <> 0 TO "OPERACIONES_REVERSADAS_SIN_NCR" 
+
+OPEN OPERACIONES_REVERSADAS_SIN_NCR
+
+DELETE FIELD Centro OK
+DEFINE FIELD Centro COMPUTED "M" + SUBSTR(STORECODE;8;3)
+
+DELETE FIELD NomLocal OK 
+DEFINE FIELD NomLocal COMPUTED ALLTRIM(STORENAME)
+
+DELETE FIELD Fecha OK 
+DEFINE FIELD Fecha COMPUTED SUBSTR(DATE(CLIENTDATE);1;10)
+
+DELETE FIELD FechaHora OK 
+DEFINE FIELD FechaHora COMPUTED CLIENTDATE
+
+DELETE FIELD Lote OK 
+DEFINE FIELD Lote COMPUTED LOTNUMBER
+
+DELETE FIELD Ticket OK 
+DEFINE FIELD Ticket COMPUTED TICKET1
+
+DELETE FIELD Tarjeta OK 
+DEFINE FIELD Tarjeta COMPUTED PROVIDERNAME 
+
+DELETE FIELD PrimerosDig OK
+DEFINE FIELD PrimerosDig COMPUTED CARDPREFIX
+
+DELETE FIELD UltDig OK 
+DEFINE FIELD UltDig COMPUTED CARDLASTDIGITS
+
+DELETE FIELD ModoIng OK 
+DEFINE FIELD ModoIng COMPUTED INPUTMODEPOSVALUE
+
+DELETE FIELD Monto OK 
+DEFINE FIELD Monto COMPUTED AMOUNT 
+
+DELETE FIELD MontoAdicional OK 
+DEFINE FIELD MontoAdicional COMPUTED ADDITIONALAMOUNT
+
+DELETE FIELD ReverseID OK 
+DEFINE FIELD ReverseID COMPUTED REVERSETRANSACTIONID
+
+DELETE FIELD Proveedor OK 
+DEFINE FIELD Proveedor COMPUTED PROVIDERNAME
+
+DELETE FIELD IdComprobante OK 
+DEFINE FIELD IdComprobante COMPUTED ID_COMPROBANTE1 
+
+DELETE FIELD TipoDoc OK 
+DEFINE FIELD TipoDoc COMPUTED TIPO_DOCUMENTO_CLIENTE 
+
+DELETE FIELD NumeroDoc OK 
+DEFINE FIELD NumeroDoc COMPUTED NUMERO_DOCUMENTO_CLIENTE
+
+DELETE FIELD NombreCliente OK 
+DEFINE FIELD NombreCliente COMPUTED NOMBRE_CLIENTE
+
+DELETE FIELD NombreTitular OK 
+DEFINE FIELD NombreTitular COMPUTED NOMBRE_TITULAR_TARJETA
+
+DELETE FIELD NumPedidoVenta OK 
+DEFINE FIELD NumPedidoVenta COMPUTED NUMERO_PEDIDO_VENTA 
+
+DELETE FIELD MetodoEntradaPINPAD OK
+DEFINE FIELD MetodoEntradaPINPAD COMPUTED METODO_ENTRADA_PINPAD
+
+EXTRACT FIELDS Centro NomLocal FechaHora Lote Ticket Tarjeta PrimerosDig UltDig Monto MontoAdicional Punto Numero CDG  TipoDoc NumeroDoc NombreCliente MetodoEntradaPINPAD  TO "OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)"
+
+OPEN OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)
+
+COUNT
+IF COUNT1 > 0 DO S04_Notificar
+IF COUNT1 = 0 DO S05_NotificarSinCasos
+
+SET SAFETY ON
+^BATCH    S05_NotificarSinCasos              
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+COMM
+ Notificar que no se encontró casos
+
+Hora=TIME(NOW())
+Saludo = "Buenas Noches" IF Hora >= "20:00:00" OR Hora < "06:00:00"
+Saludo = "Buenos Dias" IF Hora >= "06:00:00" AND Hora < "13:00:00"
+Saludo = "Buenas Tardes" IF Hora >= "13:00:00" AND Hora < "20:00:00"
+
+Remitente="miguel.cabrera@grupocarsa.com"
+Contraseña="B34AD7E1F23D01842AE000BC2D6BD81E3717903B6057016AF5D4E9251D53BFBD"
+Ruta="10.4.100.28"
+Para="ControlTarjetasExternas@grupocarsa.com"
+CC="miguel.cabrera@grupocarsa.com, debora.ogallar@grupocarsa.com"
+BCC=""
+Asunto="OPERACIONES_REVERSADAS_SIN_NCR_(%Nom%)"
+Texto= '%Saludo%'+CHR(10)+CHR(13)+CHR(13)+"No se encontraron casos de Operaciones Reversadas Sin Nota de Credito."+CHR(10)+CHR(13)+CHR(13)+"Saludos."+CHR(10)+CHR(13)+CHR(13)+"Miguel Angel Cabrera"+CHR(10)+CHR(13)+" Auditoria Operativa"
+
+NOTIFY USER "%Remitente%" PASSWORD "%Contraseña%" MAILBOX "%Ruta%" ADDRESS "%Para%" CC "%CC%" BCC "%BCC%" SUBJECT "%Asunto%" MESSAGE "%Texto%" 
+
+SET SAFETY ON
+^LOGFILE  VTOL                                "" "VTOL.log"
+[PARENT_FOLDER_ID] 0
+^BATCH    S00_Local                          
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+SET FOLDER /Tablas
+
+IMPORT ODBC SOURCE "Excel Files" TABLE "Datos$" QUALIFIER "D:\Mis Documentos\AUDITORIA OPERATIVA\SCRIPT\Biblioteca AX\Datos.xls" TO "Datos.FIL" WIDTH 50 MAXIMUM 100 FIELDS "Usu_Legacy","Cl_Legacy","Usu_SAP","Cl_SAP","Usu_REPO","Cl_REPO","megatone","confina","base_megatone","base_corefin","clientes_megatone","clientes_corefin","proveedores","musimundo","clientes_unificado","interfaz_sap","reposar","subdiarios","confinaweb","adaptadores","buzon_04","Usu_Rumbo","Cl_Rumbo","bancos","clientes_nuevo","Usu_VTOL","Cl_VTOL"
+
+DO S01_Inicializar 
+DO S02_Importar
+DO S03_Relacionar
+
+SET SAFETY ON
+^BATCH    S02_Importar                       
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+SET FOLDER /Tablas
+
+COMM  **********************************************      VTOL
+
+COMM
+ACCESSDATA32 ODBC "Dsn" NAME "VTOL_PRD" USER "vtolqry" PASSWORD 1 TO "vw_transaction.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( app=aclda32;wsid=SRVAXCORE5;network=DBMSSOCN)
+ SOURCE( app=aclda32;wsid=AUOP007PC)
+  
+ACCESSDATA32 ODBC "Dsn" NAME "VTOL_PRD" USER "vtolqry" PASSWORD 1 TO "vw_transaction.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( )
+ SQL_QUERY( 
+    SELECT
+        ID,
+        OPERATIONID,
+        TICKET,
+        LOTNUMBER,
+        CARDPREFIX,
+        CARDLASTDIGITS,
+        TRXTYPE,
+        PROVIDERNAME,
+        AMOUNT,
+        DESCRIPTION,
+        STORENAME,
+        OPERATIONSTATUS,
+        CLIENTDATE,
+        INPUTMODEPOSVALUE,
+        PLANCODE,
+        PAYMENTS,
+        AUTHORIZATIONCODE,
+        RESPONSECODE,
+        SERIALNUMBER,
+        BUSINESSNUMBER,
+        STORECODE,
+        REVERSETRANSACTIONID,
+        ORIGINALTRANSACTIONID,
+        VOIDTRANSACTIONID,
+        CLOSETRANSACTIONID,
+        STATUS,
+        TRANSACTIONSTATUS,
+        ORIGINALTRXTICKETNR,
+        ADDITIONALAMOUNT
+    FROM
+        VTOL.dbo.vw_transaction
+    WHERE
+        (
+            CLIENTDATE >= '%v_desde%'
+            AND CLIENTDATE <= '%v_hasta%'
+        )
+    ORDER BY TICKET, LOTNUMBER, CARDPREFIX, CARDLASTDIGITS
+ ) END_QUERY 
+ 
+OPEN vw_transaction
+
+
+COMM  **********************************************      RUMBO
+
+ACCESSDATA32 ODBC "Dsn" NAME "RumboPRD" USER "auditoria" PASSWORD 2 TO "FacturasCuponRumbo.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( )
+ SQL_QUERY( 
+    SELECT
+        F.NUMERO_FISCAL,
+        F.ID_PEDIDO_VENTA,
+        F.ES_BIEN_DE_USO,
+        F.NUMERO_CREDITO,
+        F.NUMERO_ENTREGA,
+        F.LEGAJO_CAJERO,
+        F.LEGAJO_AUTORIZANTE,
+        F.CAE_VIGENTE,
+        F.FECHA_VENCIMIENTO_CAE,
+        F.PUNTO_VENTA_FISCAL,
+        F.INTERES_FACTURA_COREFIN,
+        F.NUMERO_FACTURA_COREFIN,
+        F.PUNTO_FACTURA_COREFIN,
+        C.ID_COMPROBANTE,
+        C.VERSION,
+        C.SECOND_LEVEL_VERSION,
+        C.ID_PUNTO_DE_VENTA,
+        C.NUMERO_CORRELATIVO,
+        C.USERNAME,
+        C.ID_TIPO_COMPROBANTE,
+        C.FECHA_CREACION,
+        C.OBSERVACIONES,
+        C.ID_SUB_TIPO_COMPROBANTE,
+        C.ID_ESTADO,
+        C.ID_LOCAL,
+        C.ID_COMPROBANTE_ORI,
+        C.ID_PUNTO_DE_VENTA_ORIGINAL,
+        PV.ID_PUNTO_DE_VENTA AS ID_PUNTO_DE_VENTA2,
+        PV.VERSION AS VERSION2,
+        PV.SECOND_LEVEL_VERSION AS SECOND_LEVEL_VERSION2,
+        PV.NUMERO,
+        PV.NOMBRE,
+        PV.NUM_CAJA,
+        PV.USUARIO,
+        PV.ADMITE_AUTO_PRINT,
+        PV.ADMITE_RUMBO_PRINT,
+        PV.ID_COMPANIA,
+        PV.ENTITY_UID,
+        PV.ID_TIENDA,
+        PV.PRINT_ASYNC,
+        PV.PUNTO_ELECTRONICO,
+        PV.CAJA_SECA,
+        PV.TIENE_CAJA_RUMBO,
+        PV.VTOL_ACTIVO,
+        CV.ID_CONDICION_VENTA,
+        CV.VERSION AS VERSION3,
+        CV.SECOND_LEVEL_VERSION AS SECOND_LEVEL_VERSION3,
+        CV.MONTO,
+        CV.CANTIDAD_CUOTAS,
+        CV.IMPORTE_CUOTA,
+        CV.CANTIDAD_CHEQUES,
+        CV.CONFECCIONADO,
+        CV.ENTREGA_CUOTA,
+        CV.ENTREGA,
+        CV.OBSERVACIONES AS OBSERVACIONES2,
+        CV.ID_CUPON,
+        CV.ID_MEDIO_PAGO_LOCAL,
+        CV.ID_TOTALES_CONDICION_VENTA,
+        CV.VTO_PRIMER_CUOTA,
+        CV.ID_PEDIDO_VENTA AS ID_PEDIDO_VENTA2,
+        CV.IDX,
+        CV.ID_ITEM_PEDIDO,
+        CV.ADMITE_GPAY,
+        CV.gpay_autorizado,
+        CV.REQUIERE_AUTORIZACION,
+        CV.ID_GPAY_OUT,
+        CV.NUMERO_COMERCIO_ALTERNATIVO,
+        CV.ID_TIPO_PRECIO,
+        CV.detalle_cambio_comercio,
+        CV.ENTREGA_CUOTA_CV_ORIGINAL,
+        CV.ID_CUENTA_CORRIENTE,
+        CV.PORCENTAJE_OBLIGATORIO_ASALDAR,
+        CV.PLAN_GOBIERNO,
+        CV.CODIGO_CBN,
+        CV.AUTORIZADOR,
+        CV.CODIGO_AUTORIZACION_MERCADO_PAGO,
+        CV.codigo_mp_ingresado,
+        CV.ID_REGLA_BONIFICACION_INTERES,
+        CV.ID_SOLICITUD_CUOTA_YA,
+        CV.CODIGO_PLAN_CUOTA_YA,
+        CV.PROVEEDOR,
+        CV.PAGADO_POR_BP,
+        CUP.ID_COMPROBANTE AS ID_COMPROBANTE2,
+        CUP.NOMBRE_PRODUCTO,
+        CUP.OPERACION,
+        CUP.FECHA_TRANSACCION,
+        CUP.CODIGO_TERMINAL,
+        CUP.CODIGO_PRODUCTO_VTOL,
+        CUP.NUMERO_CUENTA,
+        CUP.MODO_AUTORIZACION,
+        CUP.VERSION_SOFTWARE,
+        CUP.METODO_ENTRADA,
+        CUP.CODIGO_AUTORIZACION,
+        CUP.MONEDA,
+        CUP.MONTO AS MONTO2,
+        CUP.CANTIDAD_CUOTAS AS CANTIDAD_CUOTAS2,
+        CUP.ESTADO_AUTORIZACION,
+        CUP.NUMERO_LOTE,
+        CUP.NUMERO_TICKET,
+        CUP.NUMERO_TICKET_ORIGEN,
+        CUP.FECHA_TRANSACCION_ORIGINAL,
+        CUP.CODIGO_TRANSACCION,
+        CUP.CODIGO_MEDIO_PAGO,
+        CUP.NOMBRE_TITULAR_TARJETA,
+        CUP.FECHA_VENCIMIENTO_TARJETA,
+        CUP.CODIGO_RESPUESTA_VTOL,
+        CUP.MENSAJE_RESPUESTA_VTOL,
+        CUP.CODIGO_PLAN,
+        CUP.TIPO_DOCUMENTO_CLIENTE,
+        CUP.ID_CLIENTE,
+        CUP.IDE_DOCUMENTO_CLIENTE,
+        CUP.NUMERO_DOCUMENTO_CLIENTE,
+        CUP.NUMERO_CAJA,
+        CUP.LEGAJO_VENDEDOR,
+        CUP.NUMERO_PEDIDO_VENTA,
+        CUP.CODIGO_LOCAL,
+        CUP.CODIGO_TRANSACCION_ORIGINAL,
+        CUP.NOMBRE_CLIENTE,
+        CUP.METODO_ENTRADA_PINPAD,
+        CUP.PINPAD_APPLICATION_ID,
+        CUP.PINPAD_APPLICATION_NAME,
+        CUP.monto_adicional,
+        CUP.TIPO_CUENTA 
+    FROM
+        rumbo_prd.dbo.FACTURA F
+        INNER JOIN rumbo_prd.dbo.COMPROBANTE C ON F.ID_COMPROBANTE = C.ID_COMPROBANTE
+        LEFT JOIN rumbo_prd.dbo.PUNTO_DE_VENTA PV ON PV.ID_PUNTO_DE_VENTA = C.ID_PUNTO_DE_VENTA
+        INNER JOIN rumbo_prd.dbo.CONDICION_VENTA CV on F.ID_PEDIDO_VENTA = CV.ID_PEDIDO_VENTA
+        INNER JOIN rumbo_prd.dbo.CUPON_TARJETA CUP on CV.ID_CUPON = CUP.ID_COMPROBANTE
+    WHERE
+        (
+            C.FECHA_CREACION >= {ts '%v_desde%'}
+            AND C.FECHA_CREACION <= {ts '%v_hasta%'}
+        )
+) END_QUERY 
+
+OPEN FacturasCuponRumbo
+
+
+
+COMMENT
+ACCESSDATA32 ODBC "Dsn" NAME "VTOL_PRD" USER "vtolqry" PASSWORD 1 TO "vw_transaction_ClosedFinancialTransaction.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( app=aclda32;wsid=AUOP007PC)
+ SQL_QUERY( 
+    SELECT
+        "vw_transaction"."OPERATIONID" AS "OPERATIONID",
+        "vw_transaction"."ID" AS "ID",
+        "vw_transaction"."CLIENTDATE" AS "CLIENTDATE",
+        "vw_transaction"."TRXTYPE" AS "TRXTYPE",
+        "vw_transaction"."TICKET" AS "TICKET",
+        "vw_transaction"."PROVIDERNAME" AS "PROVIDERNAME",
+        "vw_transaction"."CARDPREFIX" AS "CARDPREFIX",
+        "vw_transaction"."CARDLASTDIGITS" AS "CARDLASTDIGITS",
+        "vw_transaction"."INPUTMODEPOSVALUE" AS "INPUTMODEPOSVALUE",
+        "vw_transaction"."PLANCODE" AS "PLANCODE",
+        "vw_transaction"."PAYMENTS" AS "PAYMENTS",
+        "vw_transaction"."AUTHORIZATIONCODE" AS "AUTHORIZATIONCODE",
+        "vw_transaction"."AMOUNT" AS "AMOUNT",
+        "vw_transaction"."RESPONSECODE" AS "RESPONSECODE",
+        "vw_transaction"."DESCRIPTION" AS "DESCRIPTION",
+        "vw_transaction"."OPERATIONSTATUS" AS "OPERATIONSTATUS",
+        "vw_transaction"."SERIALNUMBER" AS "SERIALNUMBER",
+        "vw_transaction"."BUSINESSNUMBER" AS "BUSINESSNUMBER",
+        "vw_transaction"."STORECODE" AS "STORECODE",
+        "vw_transaction"."STORENAME" AS "STORENAME",
+        "vw_transaction"."REVERSETRANSACTIONID" AS "REVERSETRANSACTIONID",
+        "vw_transaction"."ORIGINALTRANSACTIONID" AS "ORIGINALTRANSACTIONID",
+        "vw_transaction"."VOIDTRANSACTIONID" AS "VOIDTRANSACTIONID",
+        "vw_transaction"."CLOSETRANSACTIONID" AS "CLOSETRANSACTIONID",
+        "vw_transaction"."STATUS" AS "STATUS",
+        "vw_transaction"."TRANSACTIONSTATUS" AS "TRANSACTIONSTATUS",
+        "vw_transaction"."LOTNUMBER" AS "LOTNUMBER",
+        "vw_transaction"."ORIGINALTRXTICKETNR" AS "ORIGINALTRXTICKETNR",
+        "vw_transaction"."ADDITIONALAMOUNT" AS "ADDITIONALAMOUNT",
+        "ClosedFinancialTransaction"."closedId" AS "closedId",
+        "ClosedFinancialTransaction"."id" AS "ClosedFinancialTransaction_id",
+        "ClosedFinancialTransaction"."operationId" AS "ClosedFinancialTransaction_operationId",
+        "ClosedFinancialTransaction"."currencyId" AS "currencyId",
+        "ClosedFinancialTransaction"."currencyCode" AS "currencyCode",
+        "ClosedFinancialTransaction"."currencyPosCode" AS "currencyPosCode",
+        "ClosedFinancialTransaction"."terminalId" AS "terminalId",
+        "ClosedFinancialTransaction"."serialNumber" AS "ClosedFinancialTransaction_serialNumber",
+        "ClosedFinancialTransaction"."trxType" AS "ClosedFinancialTransaction_trxType",
+        "ClosedFinancialTransaction"."status" AS "ClosedFinancialTransaction_status",
+        "ClosedFinancialTransaction"."processingCode" AS "processingCode",
+        "ClosedFinancialTransaction"."ticket" AS "ClosedFinancialTransaction_ticket",
+        "ClosedFinancialTransaction"."trace" AS "trace",
+        "ClosedFinancialTransaction"."lotNumber" AS "ClosedFinancialTransaction_lotNumber",
+        "ClosedFinancialTransaction"."amount" AS "ClosedFinancialTransaction_amount",
+        "ClosedFinancialTransaction"."expirationDate" AS "expirationDate",
+        "ClosedFinancialTransaction"."rrn" AS "rrn",
+        "ClosedFinancialTransaction"."captureDate" AS "captureDate",
+        "ClosedFinancialTransaction"."transmissionDate" AS "transmissionDate",
+        "ClosedFinancialTransaction"."businessNumber" AS "ClosedFinancialTransaction_businessNumber",
+        "ClosedFinancialTransaction"."posCondition" AS "posCondition",
+        "ClosedFinancialTransaction"."authorizationCode" AS "ClosedFinancialTransaction_authorizationCode",
+        "ClosedFinancialTransaction"."preauthorizationCode" AS "preauthorizationCode",
+        "ClosedFinancialTransaction"."cardNumber" AS "cardNumber",
+        "ClosedFinancialTransaction"."cardPrefix" AS "ClosedFinancialTransaction_cardPrefix",
+        "ClosedFinancialTransaction"."cardLastDigits" AS "ClosedFinancialTransaction_cardLastDigits",
+        "ClosedFinancialTransaction"."payments" AS "ClosedFinancialTransaction_payments",
+        "ClosedFinancialTransaction"."responseCode" AS "ClosedFinancialTransaction_responseCode",
+        "ClosedFinancialTransaction"."responseMessage" AS "responseMessage",
+        "ClosedFinancialTransaction"."companyId" AS "companyId",
+        "ClosedFinancialTransaction"."companyName" AS "companyName",
+        "ClosedFinancialTransaction"."store" AS "store",
+        "ClosedFinancialTransaction"."storeName" AS "ClosedFinancialTransaction_storeName",
+        "ClosedFinancialTransaction"."storeCode" AS "ClosedFinancialTransaction_storeCode",
+        "ClosedFinancialTransaction"."channelId" AS "channelId",
+        "ClosedFinancialTransaction"."channelName" AS "channelName",
+        "ClosedFinancialTransaction"."messageCode" AS "messageCode",
+        "ClosedFinancialTransaction"."clientDate" AS "ClosedFinancialTransaction_clientDate",
+        "ClosedFinancialTransaction"."originalTrxTicketNr" AS "ClosedFinancialTransaction_originalTrxTicketNr",
+        "ClosedFinancialTransaction"."paymentPlanId" AS "paymentPlanId",
+        "ClosedFinancialTransaction"."providerId" AS "providerId",
+        "ClosedFinancialTransaction"."providerName" AS "ClosedFinancialTransaction_providerName",
+        "ClosedFinancialTransaction"."lotDefinitionId" AS "lotDefinitionId",
+        "ClosedFinancialTransaction"."lotDefinitionDescription" AS "lotDefinitionDescription",
+        "ClosedFinancialTransaction"."paymentCondition" AS "paymentCondition",
+        "ClosedFinancialTransaction"."transactionStatus" AS "ClosedFinancialTransaction_transactionStatus",
+        "ClosedFinancialTransaction"."authorizationMode" AS "authorizationMode",
+        "ClosedFinancialTransaction"."additionalAmount" AS "ClosedFinancialTransaction_additionalAmount",
+        "ClosedFinancialTransaction"."inputModeId" AS "inputModeId",
+        "ClosedFinancialTransaction"."inputModePosValue" AS "ClosedFinancialTransaction_inputModePosValue",
+        "ClosedFinancialTransaction"."periodId" AS "periodId",
+        "ClosedFinancialTransaction"."controlInterfaceId" AS "controlInterfaceId",
+        "ClosedFinancialTransaction"."voidTransactionId" AS "ClosedFinancialTransaction_voidTransactionId",
+        "ClosedFinancialTransaction"."reverseTransactionId" AS "ClosedFinancialTransaction_reverseTransactionId",
+        "ClosedFinancialTransaction"."differDate" AS "differDate",
+        "ClosedFinancialTransaction"."conciliatorControlInterfaceId" AS "conciliatorControlInterfaceId",
+        "ClosedFinancialTransaction"."originalTransactionId" AS "ClosedFinancialTransaction_originalTransactionId",
+        "ClosedFinancialTransaction"."trxId" AS "trxId",
+        "ClosedFinancialTransaction"."operationStatus" AS "ClosedFinancialTransaction_operationStatus",
+        "ClosedFinancialTransaction"."planCode" AS "ClosedFinancialTransaction_planCode",
+        "ClosedFinancialTransaction"."nodeId" AS "nodeId",
+        "ClosedFinancialTransaction"."nodeCode" AS "nodeCode",
+        "ClosedFinancialTransaction"."cancellationType" AS "cancellationType",
+        "ClosedFinancialTransaction"."consoleTrx" AS "consoleTrx",
+        "ClosedFinancialTransaction"."cardTypeId" AS "cardTypeId",
+        "ClosedFinancialTransaction"."cardTypeDescription" AS "cardTypeDescription",
+        "ClosedFinancialTransaction"."closeTransactionId" AS "ClosedFinancialTransaction_closeTransactionId",
+        "ClosedFinancialTransaction"."reverse" AS "reverse",
+        "ClosedFinancialTransaction"."emvConfirmed" AS "emvConfirmed",
+        "ClosedFinancialTransaction"."advicePinpadResponseCode" AS "advicePinpadResponseCode",
+        "ClosedFinancialTransaction"."pinpadRejected" AS "pinpadRejected",
+        "ClosedFinancialTransaction"."advicePinpadAutCode" AS "advicePinpadAutCode",
+        "ClosedFinancialTransaction"."adviceResponseCode" AS "adviceResponseCode",
+        "ClosedFinancialTransaction"."encryptedPassId" AS "encryptedPassId",
+        "ClosedFinancialTransaction"."additionalInterfaceId1" AS "additionalInterfaceId1",
+        "ClosedFinancialTransaction"."additionalInterfaceId2" AS "additionalInterfaceId2",
+        "ClosedFinancialTransaction"."additionalInterfaceId3" AS "additionalInterfaceId3",
+        "ClosedFinancialTransaction"."posPeriod" AS "posPeriod",
+        "ClosedFinancialTransaction"."turn" AS "turn",
+        "ClosedFinancialTransaction"."operatorCode" AS "operatorCode",
+        "ClosedFinancialTransaction"."operatorName" AS "operatorName",
+        "ClosedFinancialTransaction"."sellerCode" AS "sellerCode",
+        "ClosedFinancialTransaction"."sellerName" AS "sellerName",
+        "ClosedFinancialTransaction"."attentionMode" AS "attentionMode",
+        "ClosedFinancialTransaction"."emvTefData" AS "emvTefData",
+        "ClosedFinancialTransaction"."acquirerRefData" AS "acquirerRefData",
+        "ClosedFinancialTransaction"."trxReferenceNumber" AS "trxReferenceNumber",
+        "ClosedFinancialTransaction"."errorAmount" AS "errorAmount",
+        "ClosedFinancialTransaction"."additionalMessageData" AS "additionalMessageData",
+        "ClosedFinancialTransaction"."providerCode" AS "providerCode",
+        "ClosedFinancialTransaction"."originalClusterNode" AS "originalClusterNode",
+        "ClosedFinancialTransaction"."authorizerClusterNode" AS "authorizerClusterNode" 
+    FROM
+        "dbo"."vw_transaction" "vw_transaction" FULL 
+    JOIN
+        "dbo"."ClosedFinancialTransaction" "ClosedFinancialTransaction" 
+            ON "vw_transaction"."OPERATIONID" = "ClosedFinancialTransaction"."operationId" 
+            AND "vw_transaction"."ID" = "ClosedFinancialTransaction"."id" 
+    WHERE
+        (
+            "vw_transaction"."CLIENTDATE" >= '%v_desde%'
+            AND "vw_transaction"."CLIENTDATE" <= '%v_hasta%'
+        )
+ ) END_QUERY 
+OPEN vw_transaction_ClosedFinancialTransaction
+END
+
+COMMENT
+ACCESSDATA64 ODBC "Dsn" NAME "RumboPRD" USER "auditoria" PASSWORD 2 TO "FacturasCuponRumbo.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( app=aclda32;wsid=AUOP007PC)
+ SQL_QUERY( 
+    SELECT
+        "COMPROBANTE"."ID_COMPROBANTE" AS "ID_COMPROBANTE",
+        "COMPROBANTE"."VERSION" AS "VERSION",
+        "COMPROBANTE"."SECOND_LEVEL_VERSION" AS "SECOND_LEVEL_VERSION",
+        "COMPROBANTE"."ID_PUNTO_DE_VENTA" AS "ID_PUNTO_DE_VENTA",
+        "COMPROBANTE"."NUMERO_CORRELATIVO" AS "NUMERO_CORRELATIVO",
+        "COMPROBANTE"."USERNAME" AS "USERNAME",
+        "COMPROBANTE"."ID_TIPO_COMPROBANTE" AS "ID_TIPO_COMPROBANTE",
+        "COMPROBANTE"."FECHA_CREACION" AS "FECHA_CREACION",
+        "COMPROBANTE"."OBSERVACIONES" AS "OBSERVACIONES",
+        "COMPROBANTE"."ID_SUB_TIPO_COMPROBANTE" AS "ID_SUB_TIPO_COMPROBANTE",
+        "COMPROBANTE"."ID_ESTADO" AS "ID_ESTADO",
+        "COMPROBANTE"."ID_LOCAL" AS "ID_LOCAL",
+        "COMPROBANTE"."ID_COMPROBANTE_ORI" AS "ID_COMPROBANTE_ORI",
+        "COMPROBANTE"."ID_PUNTO_DE_VENTA_ORIGINAL" AS "ID_PUNTO_DE_VENTA_ORIGINAL",
+        "PUNTO_DE_VENTA"."ID_PUNTO_DE_VENTA" AS "PUNTO_DE_VENTA_ID_PUNTO_DE_VENTA",
+        "PUNTO_DE_VENTA"."VERSION" AS "PUNTO_DE_VENTA_VERSION",
+        "PUNTO_DE_VENTA"."SECOND_LEVEL_VERSION" AS "PUNTO_DE_VENTA_SECOND_LEVEL_VERSION",
+        "PUNTO_DE_VENTA"."NUMERO" AS "NUMERO",
+        "PUNTO_DE_VENTA"."NOMBRE" AS "NOMBRE",
+        "PUNTO_DE_VENTA"."NUM_CAJA" AS "NUM_CAJA",
+        "PUNTO_DE_VENTA"."USUARIO" AS "USUARIO",
+        "PUNTO_DE_VENTA"."ADMITE_AUTO_PRINT" AS "ADMITE_AUTO_PRINT",
+        "PUNTO_DE_VENTA"."ADMITE_RUMBO_PRINT" AS "ADMITE_RUMBO_PRINT",
+        "PUNTO_DE_VENTA"."ID_COMPANIA" AS "ID_COMPANIA",
+        "PUNTO_DE_VENTA"."ENTITY_UID" AS "ENTITY_UID",
+        "PUNTO_DE_VENTA"."ID_TIENDA" AS "ID_TIENDA",
+        "PUNTO_DE_VENTA"."PRINT_ASYNC" AS "PRINT_ASYNC",
+        "PUNTO_DE_VENTA"."PUNTO_ELECTRONICO" AS "PUNTO_ELECTRONICO",
+        "PUNTO_DE_VENTA"."CAJA_SECA" AS "CAJA_SECA",
+        "PUNTO_DE_VENTA"."TIENE_CAJA_RUMBO" AS "TIENE_CAJA_RUMBO",
+        "PUNTO_DE_VENTA"."VTOL_ACTIVO" AS "VTOL_ACTIVO",
+        "FACTURA"."NUMERO_FISCAL" AS "NUMERO_FISCAL",
+        "FACTURA"."ID_PEDIDO_VENTA" AS "ID_PEDIDO_VENTA",
+        "FACTURA"."ES_BIEN_DE_USO" AS "ES_BIEN_DE_USO",
+        "FACTURA"."NUMERO_CREDITO" AS "NUMERO_CREDITO",
+        "FACTURA"."NUMERO_ENTREGA" AS "NUMERO_ENTREGA",
+        "FACTURA"."LEGAJO_CAJERO" AS "LEGAJO_CAJERO",
+        "FACTURA"."LEGAJO_AUTORIZANTE" AS "LEGAJO_AUTORIZANTE",
+        "FACTURA"."CAE_VIGENTE" AS "CAE_VIGENTE",
+        "FACTURA"."FECHA_VENCIMIENTO_CAE" AS "FECHA_VENCIMIENTO_CAE",
+        "FACTURA"."PUNTO_VENTA_FISCAL" AS "PUNTO_VENTA_FISCAL",
+        "FACTURA"."INTERES_FACTURA_COREFIN" AS "INTERES_FACTURA_COREFIN",
+        "FACTURA"."NUMERO_FACTURA_COREFIN" AS "NUMERO_FACTURA_COREFIN",
+        "FACTURA"."PUNTO_FACTURA_COREFIN" AS "PUNTO_FACTURA_COREFIN",
+        "PEDIDO_VENTA"."ID_PEDIDO_VENTA" AS "PEDIDO_VENTA_ID_PEDIDO_VENTA",
+        "PEDIDO_VENTA"."VERSION" AS "PEDIDO_VENTA_VERSION",
+        "PEDIDO_VENTA"."SECOND_LEVEL_VERSION" AS "PEDIDO_VENTA_SECOND_LEVEL_VERSION",
+        "PEDIDO_VENTA"."NUMERO_PEDIDO" AS "NUMERO_PEDIDO",
+        "PEDIDO_VENTA"."FECHA_CREACION" AS "PEDIDO_VENTA_FECHA_CREACION",
+        "PEDIDO_VENTA"."ID_CLIENTE" AS "ID_CLIENTE",
+        "PEDIDO_VENTA"."ID_ESTADO" AS "PEDIDO_VENTA_ID_ESTADO",
+        "PEDIDO_VENTA"."ID_BONIFICACION" AS "ID_BONIFICACION",
+        "PEDIDO_VENTA"."ID_LOCAL" AS "PEDIDO_VENTA_ID_LOCAL",
+        "PEDIDO_VENTA"."ID_TOTALES" AS "ID_TOTALES",
+        "PEDIDO_VENTA"."LIMITE_BONIF" AS "LIMITE_BONIF",
+        "PEDIDO_VENTA"."ID_TIPO_PRECIO" AS "ID_TIPO_PRECIO",
+        "PEDIDO_VENTA"."ID_CLIENTE_FACTURA_SNAPSHOT" AS "ID_CLIENTE_FACTURA_SNAPSHOT",
+        "PEDIDO_VENTA"."ID_AUT_CAMBIO_CRM" AS "ID_AUT_CAMBIO_CRM",
+        "PEDIDO_VENTA"."ID_PEDIDO_VTA_MANUAL" AS "ID_PEDIDO_VTA_MANUAL",
+        "PEDIDO_VENTA"."ID_TIPO_PEDIDO_VENTA" AS "ID_TIPO_PEDIDO_VENTA",
+        "PEDIDO_VENTA"."ID_RUMBO_CABECERA" AS "ID_RUMBO_CABECERA",
+        "PEDIDO_VENTA"."BIEN_DE_USO" AS "BIEN_DE_USO",
+        "PEDIDO_VENTA"."VERSION_PDV_GENERADOR" AS "VERSION_PDV_GENERADOR",
+        "PEDIDO_VENTA"."REQUIERE_VALIDACION_OFERTAS" AS "REQUIERE_VALIDACION_OFERTAS",
+        "PEDIDO_VENTA"."PEDIDO_FISCAL" AS "PEDIDO_FISCAL",
+        "PEDIDO_VENTA"."TIPO_ESTADO_BUSINESS_ID" AS "TIPO_ESTADO_BUSINESS_ID",
+        "PEDIDO_VENTA"."USUARIO" AS "PEDIDO_VENTA_USUARIO",
+        "PEDIDO_VENTA"."APLICA_SALDO_DEUDOR" AS "APLICA_SALDO_DEUDOR",
+        "PEDIDO_VENTA"."SALDO_DEUDOR_ACTIVO" AS "SALDO_DEUDOR_ACTIVO",
+        "PEDIDO_VENTA"."AUTORIZADOR_SALDO_DEUDOR" AS "AUTORIZADOR_SALDO_DEUDOR",
+        "PEDIDO_VENTA"."ID_CLIENTE_SNAPSHOT" AS "ID_CLIENTE_SNAPSHOT",
+        "PEDIDO_VENTA"."NUMERO_CARRITO" AS "NUMERO_CARRITO",
+        "PEDIDO_VENTA"."ID_MOTO" AS "ID_MOTO",
+        "PEDIDO_VENTA"."CODIGO_TIENDA_RETIRO" AS "CODIGO_TIENDA_RETIRO",
+        "PEDIDO_VENTA"."FECHA_CREACION_CARRITO" AS "FECHA_CREACION_CARRITO",
+        "PEDIDO_VENTA"."VENTA_VERDE" AS "VENTA_VERDE",
+        "PEDIDO_VENTA"."ID_SOLICITUD_CREDITO_DIRECTO" AS "ID_SOLICITUD_CREDITO_DIRECTO",
+        "PEDIDO_VENTA"."VENTA_CONSIGNACION" AS "VENTA_CONSIGNACION",
+        "TIENDA"."ID_TIENDA" AS "TIENDA_ID_TIENDA",
+        "TIENDA"."VERSION" AS "TIENDA_VERSION",
+        "TIENDA"."SECOND_LEVEL_VERSION" AS "TIENDA_SECOND_LEVEL_VERSION",
+        "TIENDA"."DESCRIPCION" AS "TIENDA_DESCRIPCION",
+        "TIENDA"."CODIGO_SAP" AS "CODIGO_SAP",
+        "TIENDA"."CODIGO" AS "CODIGO",
+        "TIENDA"."ID_ZONA" AS "ID_ZONA",
+        "TIENDA"."ID_ALMACEN" AS "ID_ALMACEN",
+        "TIENDA"."ID_DOMICILIO" AS "ID_DOMICILIO",
+        "TIENDA"."FECHA_BAJA" AS "FECHA_BAJA",
+        "TIENDA"."HORARIO" AS "HORARIO",
+        "TIENDA"."MAIL_CONTACTO" AS "MAIL_CONTACTO",
+        "ITEM_PEDIDO"."ID_ITEM_PEDIDO" AS "ID_ITEM_PEDIDO",
+        "ITEM_PEDIDO"."VERSION" AS "ITEM_PEDIDO_VERSION",
+        "ITEM_PEDIDO"."SECOND_LEVEL_VERSION" AS "ITEM_PEDIDO_SECOND_LEVEL_VERSION",
+        "ITEM_PEDIDO"."CANTIDAD" AS "CANTIDAD",
+        "ITEM_PEDIDO"."SUBTOTAL" AS "SUBTOTAL",
+        "ITEM_PEDIDO"."ORDEN" AS "ORDEN",
+        "ITEM_PEDIDO"."ID_PRODUCTO" AS "ID_PRODUCTO",
+        "ITEM_PEDIDO"."ID_BONIFICACION" AS "ITEM_PEDIDO_ID_BONIFICACION",
+        "ITEM_PEDIDO"."ID_VENDEDOR" AS "ID_VENDEDOR",
+        "ITEM_PEDIDO"."ID_TOTALES_ITEM" AS "ID_TOTALES_ITEM",
+        "ITEM_PEDIDO"."ID_ITEM_PRECIO" AS "ID_ITEM_PRECIO",
+        "ITEM_PEDIDO"."ITEM_PEDIDO_ID" AS "ITEM_PEDIDO_ID",
+        "ITEM_PEDIDO"."IDX" AS "IDX",
+        "ITEM_PEDIDO"."ID_PEDIDO_VENTA" AS "ITEM_PEDIDO_ID_PEDIDO_VENTA",
+        "ITEM_PEDIDO"."IDX_ITEM_OFERTA" AS "IDX_ITEM_OFERTA",
+        "ITEM_PEDIDO"."ID_ITEM_PRECIO_LISTA" AS "ID_ITEM_PRECIO_LISTA",
+        "ITEM_PEDIDO"."ES_REGALO" AS "ES_REGALO",
+        "ITEM_PEDIDO"."ID_TIPO_ENTREGA" AS "ID_TIPO_ENTREGA",
+        "ITEM_PEDIDO"."PERMITE_MODIFICAR_ALMACEN" AS "PERMITE_MODIFICAR_ALMACEN",
+        "ITEM_PEDIDO"."REQUIERE_AUTORIZACIONES" AS "REQUIERE_AUTORIZACIONES",
+        "ITEM_PEDIDO"."ID_FLETE" AS "ID_FLETE",
+        "ITEM_PEDIDO"."NRO_ITEM_CARRITO" AS "NRO_ITEM_CARRITO",
+        "ITEM_PEDIDO"."CODIGO_PRODUCTO" AS "CODIGO_PRODUCTO",
+        "ITEM_PEDIDO"."DETALLE_PRODUCTO" AS "DETALLE_PRODUCTO",
+        "ITEM_PEDIDO"."BONIFICABLE" AS "BONIFICABLE",
+        "ITEM_PEDIDO"."CODIGO_GIFT_CARD" AS "CODIGO_GIFT_CARD",
+        "ITEM_PEDIDO"."MARKUP" AS "MARKUP",
+        "CUPON_TARJETA"."ID_COMPROBANTE" AS "ID_COMPROBANTE",
+        "CUPON_TARJETA"."NOMBRE_PRODUCTO" AS "NOMBRE_PRODUCTO",
+        "CUPON_TARJETA"."OPERACION" AS "OPERACION",
+        "CUPON_TARJETA"."FECHA_TRANSACCION" AS "FECHA_TRANSACCION",
+        "CUPON_TARJETA"."CODIGO_TERMINAL" AS "CODIGO_TERMINAL",
+        "CUPON_TARJETA"."CODIGO_PRODUCTO_VTOL" AS "CODIGO_PRODUCTO_VTOL",
+        "CUPON_TARJETA"."NUMERO_CUENTA" AS "NUMERO_CUENTA",
+        "CUPON_TARJETA"."MODO_AUTORIZACION" AS "MODO_AUTORIZACION",
+        "CUPON_TARJETA"."VERSION_SOFTWARE" AS "VERSION_SOFTWARE",
+        "CUPON_TARJETA"."METODO_ENTRADA" AS "METODO_ENTRADA",
+        "CUPON_TARJETA"."CODIGO_AUTORIZACION" AS "CODIGO_AUTORIZACION",
+        "CUPON_TARJETA"."MONEDA" AS "MONEDA",
+        "CUPON_TARJETA"."MONTO" AS "MONTO",
+        "CUPON_TARJETA"."CANTIDAD_CUOTAS" AS "CANTIDAD_CUOTAS",
+        "CUPON_TARJETA"."ESTADO_AUTORIZACION" AS "ESTADO_AUTORIZACION",
+        "CUPON_TARJETA"."NUMERO_LOTE" AS "NUMERO_LOTE",
+        "CUPON_TARJETA"."NUMERO_TICKET" AS "NUMERO_TICKET",
+        "CUPON_TARJETA"."NUMERO_TICKET_ORIGEN" AS "NUMERO_TICKET_ORIGEN",
+        "CUPON_TARJETA"."FECHA_TRANSACCION_ORIGINAL" AS "FECHA_TRANSACCION_ORIGINAL",
+        "CUPON_TARJETA"."CODIGO_TRANSACCION" AS "CODIGO_TRANSACCION",
+        "CUPON_TARJETA"."CODIGO_MEDIO_PAGO" AS "CODIGO_MEDIO_PAGO",
+        "CUPON_TARJETA"."NOMBRE_TITULAR_TARJETA" AS "NOMBRE_TITULAR_TARJETA",
+        "CUPON_TARJETA"."FECHA_VENCIMIENTO_TARJETA" AS "FECHA_VENCIMIENTO_TARJETA",
+        "CUPON_TARJETA"."CODIGO_RESPUESTA_VTOL" AS "CODIGO_RESPUESTA_VTOL",
+        "CUPON_TARJETA"."MENSAJE_RESPUESTA_VTOL" AS "MENSAJE_RESPUESTA_VTOL",
+        "CUPON_TARJETA"."CODIGO_PLAN" AS "CODIGO_PLAN",
+        "CUPON_TARJETA"."TIPO_DOCUMENTO_CLIENTE" AS "TIPO_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."ID_CLIENTE" AS "ID_CLIENTE",
+        "CUPON_TARJETA"."IDE_DOCUMENTO_CLIENTE" AS "IDE_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."NUMERO_DOCUMENTO_CLIENTE" AS "NUMERO_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."NUMERO_CAJA" AS "NUMERO_CAJA",
+        "CUPON_TARJETA"."LEGAJO_VENDEDOR" AS "LEGAJO_VENDEDOR",
+        "CUPON_TARJETA"."NUMERO_PEDIDO_VENTA" AS "NUMERO_PEDIDO_VENTA",
+        "CUPON_TARJETA"."CODIGO_LOCAL" AS "CODIGO_LOCAL",
+        "CUPON_TARJETA"."CODIGO_TRANSACCION_ORIGINAL" AS "CODIGO_TRANSACCION_ORIGINAL",
+        "CUPON_TARJETA"."NOMBRE_CLIENTE" AS "NOMBRE_CLIENTE",
+        "CUPON_TARJETA"."METODO_ENTRADA_PINPAD" AS "METODO_ENTRADA_PINPAD",
+        "CUPON_TARJETA"."PINPAD_APPLICATION_ID" AS "PINPAD_APPLICATION_ID",
+        "CUPON_TARJETA"."PINPAD_APPLICATION_NAME" AS "PINPAD_APPLICATION_NAME",
+        "CUPON_TARJETA"."monto_adicional" AS "monto_adicional",
+        "CUPON_TARJETA"."TIPO_CUENTA" AS "TIPO_CUENTA" 
+    FROM
+        "dbo"."COMPROBANTE" "COMPROBANTE" 
+        INNER JOIN "dbo"."PUNTO_DE_VENTA" "PUNTO_DE_VENTA" 
+            ON "COMPROBANTE"."ID_PUNTO_DE_VENTA" = "PUNTO_DE_VENTA"."ID_PUNTO_DE_VENTA"
+        INNER JOIN "dbo"."FACTURA" "FACTURA" 
+            ON "COMPROBANTE"."ID_COMPROBANTE" = "FACTURA"."ID_COMPROBANTE"
+        INNER JOIN "dbo"."PEDIDO_VENTA" "PEDIDO_VENTA" 
+            ON "FACTURA"."ID_PEDIDO_VENTA" = "PEDIDO_VENTA"."ID_PEDIDO_VENTA"
+        INNER JOIN "dbo"."TIENDA" "TIENDA" 
+            ON "PEDIDO_VENTA"."ID_LOCAL" = "TIENDA"."ID_TIENDA"
+        INNER JOIN "dbo"."ITEM_PEDIDO" "ITEM_PEDIDO" 
+            ON "FACTURA"."ID_PEDIDO_VENTA" = "ITEM_PEDIDO"."ID_PEDIDO_VENTA" 
+        INNER JOIN "dbo"."CUPON_TARJETA" "CUPON_TARJETA" 
+            ON "FACTURA"."ID_PEDIDO_VENTA" = "CUPON_TARJETA"."NUMERO_PEDIDO_VENTA"
+    WHERE
+        (
+            "COMPROBANTE"."FECHA_CREACION" >= {ts '%v_desde%'}
+            AND "COMPROBANTE"."FECHA_CREACION" <= {ts '%v_hasta%'}
+        )
+) END_QUERY 
+OPEN FacturasCuponRumbo
+END
+
+COMMENT
+ACCESSDATA64 ODBC "Dsn" NAME "RumboPRD" USER "auditoria" PASSWORD 2 TO "CuponTarjeta.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( app=aclda32;wsid=AUOP007PC)
+ SQL_QUERY( 
+    SELECT
+        "CUPON_TARJETA"."ID_COMPROBANTE" AS "ID_COMPROBANTE",
+        "CUPON_TARJETA"."NOMBRE_PRODUCTO" AS "NOMBRE_PRODUCTO",
+        "CUPON_TARJETA"."OPERACION" AS "OPERACION",
+        "CUPON_TARJETA"."FECHA_TRANSACCION" AS "FECHA_TRANSACCION",
+        "CUPON_TARJETA"."CODIGO_TERMINAL" AS "CODIGO_TERMINAL",
+        "CUPON_TARJETA"."CODIGO_PRODUCTO_VTOL" AS "CODIGO_PRODUCTO_VTOL",
+        "CUPON_TARJETA"."NUMERO_CUENTA" AS "NUMERO_CUENTA",
+        "CUPON_TARJETA"."MODO_AUTORIZACION" AS "MODO_AUTORIZACION",
+        "CUPON_TARJETA"."VERSION_SOFTWARE" AS "VERSION_SOFTWARE",
+        "CUPON_TARJETA"."METODO_ENTRADA" AS "METODO_ENTRADA",
+        "CUPON_TARJETA"."CODIGO_AUTORIZACION" AS "CODIGO_AUTORIZACION",
+        "CUPON_TARJETA"."MONEDA" AS "MONEDA",
+        "CUPON_TARJETA"."MONTO" AS "MONTO",
+        "CUPON_TARJETA"."CANTIDAD_CUOTAS" AS "CANTIDAD_CUOTAS",
+        "CUPON_TARJETA"."ESTADO_AUTORIZACION" AS "ESTADO_AUTORIZACION",
+        "CUPON_TARJETA"."NUMERO_LOTE" AS "NUMERO_LOTE",
+        "CUPON_TARJETA"."NUMERO_TICKET" AS "NUMERO_TICKET",
+        "CUPON_TARJETA"."NUMERO_TICKET_ORIGEN" AS "NUMERO_TICKET_ORIGEN",
+        "CUPON_TARJETA"."FECHA_TRANSACCION_ORIGINAL" AS "FECHA_TRANSACCION_ORIGINAL",
+        "CUPON_TARJETA"."CODIGO_TRANSACCION" AS "CODIGO_TRANSACCION",
+        "CUPON_TARJETA"."CODIGO_MEDIO_PAGO" AS "CODIGO_MEDIO_PAGO",
+        "CUPON_TARJETA"."NOMBRE_TITULAR_TARJETA" AS "NOMBRE_TITULAR_TARJETA",
+        "CUPON_TARJETA"."FECHA_VENCIMIENTO_TARJETA" AS "FECHA_VENCIMIENTO_TARJETA",
+        "CUPON_TARJETA"."CODIGO_RESPUESTA_VTOL" AS "CODIGO_RESPUESTA_VTOL",
+        "CUPON_TARJETA"."MENSAJE_RESPUESTA_VTOL" AS "MENSAJE_RESPUESTA_VTOL",
+        "CUPON_TARJETA"."CODIGO_PLAN" AS "CODIGO_PLAN",
+        "CUPON_TARJETA"."TIPO_DOCUMENTO_CLIENTE" AS "TIPO_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."ID_CLIENTE" AS "ID_CLIENTE",
+        "CUPON_TARJETA"."IDE_DOCUMENTO_CLIENTE" AS "IDE_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."NUMERO_DOCUMENTO_CLIENTE" AS "NUMERO_DOCUMENTO_CLIENTE",
+        "CUPON_TARJETA"."NUMERO_CAJA" AS "NUMERO_CAJA",
+        "CUPON_TARJETA"."LEGAJO_VENDEDOR" AS "LEGAJO_VENDEDOR",
+        "CUPON_TARJETA"."NUMERO_PEDIDO_VENTA" AS "NUMERO_PEDIDO_VENTA",
+        "CUPON_TARJETA"."CODIGO_LOCAL" AS "CODIGO_LOCAL",
+        "CUPON_TARJETA"."CODIGO_TRANSACCION_ORIGINAL" AS "CODIGO_TRANSACCION_ORIGINAL",
+        "CUPON_TARJETA"."NOMBRE_CLIENTE" AS "NOMBRE_CLIENTE",
+        "CUPON_TARJETA"."METODO_ENTRADA_PINPAD" AS "METODO_ENTRADA_PINPAD",
+        "CUPON_TARJETA"."PINPAD_APPLICATION_ID" AS "PINPAD_APPLICATION_ID",
+        "CUPON_TARJETA"."PINPAD_APPLICATION_NAME" AS "PINPAD_APPLICATION_NAME",
+        "CUPON_TARJETA"."monto_adicional" AS "monto_adicional",
+        "CUPON_TARJETA"."TIPO_CUENTA" AS "TIPO_CUENTA" 
+    FROM
+        "dbo"."CUPON_TARJETA" "CUPON_TARJETA" 
+    WHERE
+        (
+            "CUPON_TARJETA"."FECHA_TRANSACCION" >= {ts '%v_desde%'} 
+            AND "CUPON_TARJETA"."FECHA_TRANSACCION" <= {ts '%v_hasta%'} 
+        )
+ ) END_QUERY 
+OPEN CuponTarjeta
+END
+
+COMM
+"CUPON_TARJETA"."FECHA_TRANSACCION" >= {ts '2021-02-11 00:00:00'} 
+AND "CUPON_TARJETA"."FECHA_TRANSACCION" <= {ts '2021-02-28 00:00:00'}
+
+ACCESSDATA32 ODBC "Dsn" NAME "megatone" TO "ctes_por_factura.FIL" CHARMAX 50 MEMOMAX 100 
+ SOURCE( )
+ SQL_QUERY( 
+    SELECT
+        ctes_por_factura.cpf_fac_pto_nro AS cpf_fac_pto_nro,
+        ctes_por_factura.cpf_fac_nro AS cpf_fac_nro,
+        ctes_por_factura.cpf_fac_cdg_cod AS cpf_fac_cdg_cod,
+        ctes_por_factura.cpf_fac_stc_cod AS cpf_fac_stc_cod,
+        ctes_por_factura.cpf_pto_nro AS cpf_pto_nro,
+        ctes_por_factura.cpf_nro AS cpf_nro,
+        ctes_por_factura.cpf_cdg_cod AS cpf_cdg_cod,
+        ctes_por_factura.cpf_stc_cod AS cpf_stc_cod,
+        ctes_por_factura.cpf_fec_act AS cpf_fec_act 
+    FROM
+        informix.ctes_por_factura ctes_por_factura 
+    WHERE
+        (
+            ctes_por_factura.cpf_fec_act >= '%v_desde2%' 
+            AND ctes_por_factura.cpf_fec_act <= '%v_hasta2%'
+            AND ctes_por_factura.cpf_stc_cod = 1
+        )
+ ) END_QUERY 
+
+COMM
+            ctes_por_factura.cpf_fec_act >= {d '2021-11-02'} 
+            AND ctes_por_factura.cpf_fec_act <= {d '2021-12-02'}
+            AND ctes_por_factura.cpf_stc_cod IN (1,2)
+
+OPEN ctes_por_factura
+
+SET SAFETY ON
+^FORMAT   Datos                                                               Datos                                                             "" "Datos.FIL" 0
+[PARENT_FOLDER_ID] 1617128385
+[REFRESH] SOURCE "EXCEL FILES" TABLE "Datos$" QUALIFIER "D:\Mis Documentos\AUDITORIA OPERATIVA\SCRIPT\Biblioteca AX\Datos.xls" TO "Datos.FIL" WIDTH 50 MAXIMUM 100 FIELDS "Usu_Legacy","Cl_Legacy","Usu_SAP","Cl_SAP","Usu_REPO","Cl_REPO","megatone","confina","base_megatone","base_corefin","clientes_megatone","clientes_corefin","proveedores","musimundo","clientes_unificado","interfaz_sap","reposar","subdiarios","confinaweb","adaptadores","buzon_04","Usu_Rumbo","Cl_Rumbo","bancos","clientes_nuevo","Usu_VTOL","Cl_VTOL"
+ 
+^FORMAT   FacturasCuponRumbo                                                  FacturasCuponRumbo                                                "" "FacturasCuponRumbo.FIL" 0  ASCII  
+[PARENT_FOLDER_ID] 1617128385
+[REFRESH] ACCESSDATA32 ODBC "Dsn" NAME "RumboPRD" USER "auditoria" PROMPT_PASSWORD  TO "FacturasCuponRumbo.FIL" CHARMAX 50 MEMOMAX 100   SOURCE( )   SQL_QUERY(      SELECT          F.NUMERO_FISCAL,          F.ID_PEDIDO_VENTA,          F.ES_BIEN_DE_USO,          F.NUMERO_CREDITO,          F.NUMERO_ENTREGA,          F.LEGAJO_CAJERO,          F.LEGAJO_AUTORIZANTE,          F.CAE_VIGENTE,          F.FECHA_VENCIMIENTO_CAE,          F.PUNTO_VENTA_FISCAL,          F.INTERES_FACTURA_COREFIN,          F.NUMERO_FACTURA_COREFIN,          F.PUNTO_FACTURA_COREFIN,          C.ID_COMPROBANTE,          C.VERSION,          C.SECOND_LEVEL_VERSION,          C.ID_PUNTO_DE_VENTA,          C.NUMERO_CORRELATIVO,          C.USERNAME,          C.ID_TIPO_COMPROBANTE,          C.FECHA_CREACION,          C.OBSERVACIONES,          C.ID_SUB_TIPO_COMPROBANTE,          C.ID_ESTADO,          C.ID_LOCAL,          C.ID_COMPROBANTE_ORI,          C.ID_PUNTO_DE_VENTA_ORIGINAL,          PV.ID_PUNTO_DE_VENTA AS ID_PUNTO_DE_VENTA2,          PV.VERSION AS VERSION2,          PV.SECOND_LEVEL_VERSION AS SECOND_LEVEL_VERSION2,          PV.NUMERO,          PV.NOMBRE,          PV.NUM_CAJA,          PV.USUARIO,          PV.ADMITE_AUTO_PRINT,          PV.ADMITE_RUMBO_PRINT,          PV.ID_COMPANIA,          PV.ENTITY_UID,          PV.ID_TIENDA,          PV.PRINT_ASYNC,          PV.PUNTO_ELECTRONICO,          PV.CAJA_SECA,          PV.TIENE_CAJA_RUMBO,          PV.VTOL_ACTIVO,          CV.ID_CONDICION_VENTA,          CV.VERSION AS VERSION3,          CV.SECOND_LEVEL_VERSION AS SECOND_LEVEL_VERSION3,          CV.MONTO,          CV.CANTIDAD_CUOTAS,          CV.IMPORTE_CUOTA,          CV.CANTIDAD_CHEQUES,          CV.CONFECCIONADO,          CV.ENTREGA_CUOTA,          CV.ENTREGA,          CV.OBSERVACIONES AS OBSERVACIONES2,          CV.ID_CUPON,          CV.ID_MEDIO_PAGO_LOCAL,          CV.ID_TOTALES_CONDICION_VENTA,          CV.VTO_PRIMER_CUOTA,          CV.ID_PEDIDO_VENTA AS ID_PEDIDO_VENTA2,          CV.IDX,          CV.ID_ITEM_PEDIDO,          CV.ADMITE_GPAY,          CV.gpay_autorizado,          CV.REQUIERE_AUTORIZACION,          CV.ID_GPAY_OUT,          CV.NUMERO_COMERCIO_ALTERNATIVO,          CV.ID_TIPO_PRECIO,          CV.detalle_cambio_comercio,          CV.ENTREGA_CUOTA_CV_ORIGINAL,          CV.ID_CUENTA_CORRIENTE,          CV.PORCENTAJE_OBLIGATORIO_ASALDAR,          CV.PLAN_GOBIERNO,          CV.CODIGO_CBN,          CV.AUTORIZADOR,          CV.CODIGO_AUTORIZACION_MERCADO_PAGO,          CV.codigo_mp_ingresado,          CV.ID_REGLA_BONIFICACION_INTERES,          CV.ID_SOLICITUD_CUOTA_YA,          CV.CODIGO_PLAN_CUOTA_YA,          CV.PROVEEDOR,          CV.PAGADO_POR_BP,          CUP.ID_COMPROBANTE AS ID_COMPROBANTE2,          CUP.NOMBRE_PRODUCTO,          CUP.OPERACION,          CUP.FECHA_TRANSACCION,          CUP.CODIGO_TERMINAL,          CUP.CODIGO_PRODUCTO_VTOL,          CUP.NUMERO_CUENTA,          CUP.MODO_AUTORIZACION,          CUP.VERSION_SOFTWARE,          CUP.METODO_ENTRADA,          CUP.CODIGO_AUTORIZACION,          CUP.MONEDA,          CUP.MONTO AS MONTO2,          CUP.CANTIDAD_CUOTAS AS CANTIDAD_CUOTAS2,          CUP.ESTADO_AUTORIZACION,          CUP.NUMERO_LOTE,          CUP.NUMERO_TICKET,          CUP.NUMERO_TICKET_ORIGEN,          CUP.FECHA_TRANSACCION_ORIGINAL,          CUP.CODIGO_TRANSACCION,          CUP.CODIGO_MEDIO_PAGO,          CUP.NOMBRE_TITULAR_TARJETA,          CUP.FECHA_VENCIMIENTO_TARJETA,          CUP.CODIGO_RESPUESTA_VTOL,          CUP.MENSAJE_RESPUESTA_VTOL,          CUP.CODIGO_PLAN,          CUP.TIPO_DOCUMENTO_CLIENTE,          CUP.ID_CLIENTE,          CUP.IDE_DOCUMENTO_CLIENTE,          CUP.NUMERO_DOCUMENTO_CLIENTE,          CUP.NUMERO_CAJA,          CUP.LEGAJO_VENDEDOR,          CUP.NUMERO_PEDIDO_VENTA,          CUP.CODIGO_LOCAL,          CUP.CODIGO_TRANSACCION_ORIGINAL,          CUP.NOMBRE_CLIENTE,          CUP.METODO_ENTRADA_PINPAD,          CUP.PINPAD_APPLICATION_ID,          CUP.PINPAD_APPLICATION_NAME,          CUP.monto_adicional,          CUP.TIPO_CUENTA      FROM          rumbo_prd.dbo.FACTURA F          INNER JOIN rumbo_prd.dbo.COMPROBANTE C ON F.ID_COMPROBANTE = C.ID_COMPROBANTE          LEFT JOIN rumbo_prd.dbo.PUNTO_DE_VENTA PV ON PV.ID_PUNTO_DE_VENTA = C.ID_PUNTO_DE_VENTA          INNER JOIN rumbo_prd.dbo.CONDICION_VENTA CV on F.ID_PEDIDO_VENTA = CV.ID_PEDIDO_VENTA          INNER JOIN rumbo_prd.dbo.CUPON_TARJETA CUP on CV.ID_CUPON = CUP.ID_COMPROBANTE      WHERE          (              C.FECHA_CREACION >= {ts '2022-03-29 00:00:00'}              AND C.FECHA_CREACION <= {ts '2022-03-29 23:59:59'}          )  ) END_QUERY 
+*
+^FORMAT   ctes_por_factura                                                    ctes_por_factura                                                  "" "ctes_por_factura.FIL" 0  ASCII  
+[PARENT_FOLDER_ID] 1617128385
+[REFRESH] ACCESSDATA32 ODBC "Dsn" NAME "megatone" TO "ctes_por_factura.FIL" CHARMAX 50 MEMOMAX 100   SOURCE( )   SQL_QUERY(      SELECT          ctes_por_factura.cpf_fac_pto_nro AS cpf_fac_pto_nro,          ctes_por_factura.cpf_fac_nro AS cpf_fac_nro,          ctes_por_factura.cpf_fac_cdg_cod AS cpf_fac_cdg_cod,          ctes_por_factura.cpf_fac_stc_cod AS cpf_fac_stc_cod,          ctes_por_factura.cpf_pto_nro AS cpf_pto_nro,          ctes_por_factura.cpf_nro AS cpf_nro,          ctes_por_factura.cpf_cdg_cod AS cpf_cdg_cod,          ctes_por_factura.cpf_stc_cod AS cpf_stc_cod,          ctes_por_factura.cpf_fec_act AS cpf_fec_act      FROM          informix.ctes_por_factura ctes_por_factura      WHERE          (              ctes_por_factura.cpf_fec_act >= '29-03-2022'              AND ctes_por_factura.cpf_fec_act <= '29-03-2022'              AND ctes_por_factura.cpf_stc_cod = 1          )   ) END_QUERY  
+*
+^INDEX    Ix_CtesFac_ClaveFAC                                                 ctes_por_factura                                                  "" "Ix_CtesFac_ClaveFAC.INX" 
+*INDEX ON CLAVEFAC TO "IX_CTESFAC_CLAVEFAC"
+^INDEX    Ix_Fac_NRO_TRANSACCION                                              FacturasCuponRumbo                                                "" "Ix_Fac_NRO_TRANSACCION.INX" 
+*INDEX ON NRO_TRANSACCION TO "IX_FAC_NRO_TRANSACCION"
+^FORMAT   Transacciones_Reversadas                                            Transacciones_Reversadas                                          "" "Transacciones_Reversadas.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1617128385
+~.09/05/2022   16:59:07 vw_transaction EXTRACT RECORD IF Extraer = "SI" TO "Transacciones_Reversadas"
+~Entrada: Registros:954         Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+^FORMAT   OPERACIONES_REVERSADAS_SIN_NCR                                      OPERACIONES_REVERSADAS_SIN_NCR                                    "" "OPERACIONES_REVERSADAS_SIN_NCR.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1617128385
+~.09/05/2022   16:59:07 vw_transaction EXTRACT RECORD IF Extraer = "SI" TO "Transacciones_Reversadas"
+~Entrada: Registros:954         Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+~.09/05/2022   16:59:07 Transacciones_Reversadas EXTRACT FIELDS ID OPERATIONID TICKET AS "Ticket1" LOTNUMBER CARDPREFIX CARDLASTDIGITS TRXTYPE PROVIDERNAME AMOUNT DESCRIPTION STORENAME OPERATIONSTATUS CLIENTDATE INPUTMODEPOSVALUE PLANCODE PAYMENTS AUTHORIZATIONCODE RESPONSECODE SERIALNUMBER BUSINESSNUMBER STORECODE REVERSETRANSACTIONID ORIGINALTRANSACTIONID VOIDTRANSACTIONID CLOSETRANSACTIONID STATUS TRANSACTIONSTATUS ORIGINALTRXTICKETNR ADDITIONALAMOUNT CDG ClaveFAC Extraer NRO_TRANSACCION Numero Punto Reversa FacturasCuponRumbo.NUMERO_FISCAL FacturasCuponRumbo.ID_PEDIDO_VENTA FacturasCuponRumbo.ES_BIEN_DE_USO FacturasCuponRumbo.NUMERO_CREDITO FacturasCuponRumbo.NUMERO_ENTREGA FacturasCuponRumbo.LEGAJO_CAJERO FacturasCuponRumbo.LEGAJO_AUTORIZANTE FacturasCuponRumbo.CAE_VIGENTE FacturasCuponRumbo.FECHA_VENCIMIENTO_CAE FacturasCuponRumbo.PUNTO_VENTA_FISCAL FacturasCuponRumbo.INTERES_FACTURA_COREFIN FacturasCuponRumbo.NUMERO_FACTURA_COREFIN FacturasCuponRumbo.PUNTO_FACTURA_COREFIN FacturasCuponRumbo.ID_COMPROBANTE AS "ID_COMPROBANTE1" FacturasCuponRumbo.VERSION FacturasCuponRumbo.SECOND_LEVEL_VERSION FacturasCuponRumbo.ID_PUNTO_DE_VENTA FacturasCuponRumbo.NUMERO_CORRELATIVO FacturasCuponRumbo.USERNAME FacturasCuponRumbo.ID_TIPO_COMPROBANTE FacturasCuponRumbo.FECHA_CREACION FacturasCuponRumbo.OBSERVACIONES FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE FacturasCuponRumbo.ID_ESTADO FacturasCuponRumbo.ID_LOCAL FacturasCuponRumbo.ID_COMPROBANTE_ORI FacturasCuponRumbo.ID_PUNTO_DE_VENTA_ORIGINAL FacturasCuponRumbo.ID_PUNTO_DE_VENTA2 FacturasCuponRumbo.VERSION2 FacturasCuponRumbo.SECOND_LEVEL_VERSION2 FacturasCuponRumbo.NUMERO FacturasCuponRumbo.NOMBRE FacturasCuponRumbo.NUM_CAJA FacturasCuponRumbo.USUARIO FacturasCuponRumbo.ADMITE_AUTO_PRINT FacturasCuponRumbo.ADMITE_RUMBO_PRINT FacturasCuponRumbo.ID_COMPANIA FacturasCuponRumbo.ENTITY_UID FacturasCuponRumbo.ID_TIENDA FacturasCuponRumbo.PRINT_ASYNC FacturasCuponRumbo.PUNTO_ELECTRONICO FacturasCuponRumbo.CAJA_SECA FacturasCuponRumbo.TIENE_CAJA_RUMBO FacturasCuponRumbo.VTOL_ACTIVO FacturasCuponRumbo.ID_CONDICION_VENTA FacturasCuponRumbo.VERSION3 FacturasCuponRumbo.SECOND_LEVEL_VERSION3 FacturasCuponRumbo.MONTO FacturasCuponRumbo.CANTIDAD_CUOTAS FacturasCuponRumbo.IMPORTE_CUOTA FacturasCuponRumbo.CANTIDAD_CHEQUES FacturasCuponRumbo.CONFECCIONADO FacturasCuponRumbo.ENTREGA_CUOTA FacturasCuponRumbo.ENTREGA FacturasCuponRumbo.OBSERVACIONES2 FacturasCuponRumbo.ID_CUPON FacturasCuponRumbo.ID_MEDIO_PAGO_LOCAL FacturasCuponRumbo.ID_TOTALES_CONDICION_VENTA FacturasCuponRumbo.VTO_PRIMER_CUOTA FacturasCuponRumbo.ID_PEDIDO_VENTA2 FacturasCuponRumbo.IDX FacturasCuponRumbo.ID_ITEM_PEDIDO FacturasCuponRumbo.ADMITE_GPAY FacturasCuponRumbo.gpay_autorizado FacturasCuponRumbo.REQUIERE_AUTORIZACION FacturasCuponRumbo.ID_GPAY_OUT FacturasCuponRumbo.NUMERO_COMERCIO_ALTERNATIVO FacturasCuponRumbo.ID_TIPO_PRECIO FacturasCuponRumbo.detalle_cambio_comercio FacturasCuponRumbo.ENTREGA_CUOTA_CV_ORIGINAL FacturasCuponRumbo.ID_CUENTA_CORRIENTE FacturasCuponRumbo.PORCENTAJE_OBLIGATORIO_ASALDAR FacturasCuponRumbo.PLAN_GOBIERNO FacturasCuponRumbo.CODIGO_CBN FacturasCuponRumbo.AUTORIZADOR FacturasCuponRumbo.CODIGO_AUTORIZACION_MERCADO_PAGO FacturasCuponRumbo.codigo_mp_ingresado FacturasCuponRumbo.ID_REGLA_BONIFICACION_INTERES FacturasCuponRumbo.ID_SOLICITUD_CUOTA_YA FacturasCuponRumbo.CODIGO_PLAN_CUOTA_YA FacturasCuponRumbo.PROVEEDOR FacturasCuponRumbo.PAGADO_POR_BP FacturasCuponRumbo.ID_COMPROBANTE2 FacturasCuponRumbo.NOMBRE_PRODUCTO FacturasCuponRumbo.OPERACION FacturasCuponRumbo.FECHA_TRANSACCION FacturasCuponRumbo.CODIGO_TERMINAL FacturasCuponRumbo.CODIGO_PRODUCTO_VTOL FacturasCuponRumbo.NUMERO_CUENTA FacturasCuponRumbo.MODO_AUTORIZACION FacturasCuponRumbo.VERSION_SOFTWARE FacturasCuponRumbo.METODO_ENTRADA FacturasCuponRumbo.CODIGO_AUTORIZACION FacturasCuponRumbo.MONEDA FacturasCuponRumbo.MONTO2 FacturasCuponRumbo.CANTIDAD_CUOTAS2 FacturasCuponRumbo.ESTADO_AUTORIZACION FacturasCuponRumbo.NUMERO_LOTE FacturasCuponRumbo.NUMERO_TICKET FacturasCuponRumbo.NUMERO_TICKET_ORIGEN FacturasCuponRumbo.FECHA_TRANSACCION_ORIGINAL FacturasCuponRumbo.CODIGO_TRANSACCION FacturasCuponRumbo.CODIGO_MEDIO_PAGO FacturasCuponRumbo.NOMBRE_TITULAR_TARJETA FacturasCuponRumbo.FECHA_VENCIMIENTO_TARJETA FacturasCuponRumbo.CODIGO_RESPUESTA_VTOL FacturasCuponRumbo.MENSAJE_RESPUESTA_VTOL FacturasCuponRumbo.CODIGO_PLAN FacturasCuponRumbo.TIPO_DOCUMENTO_CLIENTE FacturasCuponRumbo.ID_CLIENTE FacturasCuponRumbo.IDE_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_CAJA FacturasCuponRumbo.LEGAJO_VENDEDOR FacturasCuponRumbo.NUMERO_PEDIDO_VENTA FacturasCuponRumbo.CODIGO_LOCAL FacturasCuponRumbo.CODIGO_TRANSACCION_ORIGINAL FacturasCuponRumbo.NOMBRE_CLIENTE FacturasCuponRumbo.METODO_ENTRADA_PINPAD FacturasCuponRumbo.PINPAD_APPLICATION_ID FacturasCuponRumbo.PINPAD_APPLICATION_NAME FacturasCuponRumbo.monto_adicional FacturasCuponRumbo.TIPO_CUENTA FacturasCuponRumbo.NRO_TRANSACCION Ver IF ctes_por_factura.cpf_fac_nro = 0 AND Numero <> 0 TO "OPERACIONES_REVERSADAS_SIN_NCR"
+~Entrada: Registros:1           Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+^REPORT   Vista_predeterminada                                                OPERACIONES_REVERSADAS_SIN_NCR__02052022_08052022_                D,T.
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+Centro               WIDTH 8 PICTURE ""
+[LINE] 1
+NomLocal             WIDTH 10 PICTURE ""
+[LINE] 1
+FechaHora            WIDTH 15 PICTURE ""
+[LINE] 1
+Lote                 WIDTH 6 PICTURE ""
+[LINE] 1
+Ticket               WIDTH 7 PICTURE ""
+[LINE] 1
+Tarjeta              WIDTH 8 PICTURE ""
+[LINE] 1
+PrimerosDig          WIDTH 12 PICTURE ""
+[LINE] 1
+UltDig               WIDTH 8 PICTURE ""
+[LINE] 1
+Monto                WIDTH 8 PICTURE ""
+[LINE] 1
+MontoAdicional       WIDTH 14 PICTURE ""
+[LINE] 1
+Punto                WIDTH 8 PICTURE ""
+[LINE] 1
+Numero               WIDTH 9 PICTURE ""
+[LINE] 1
+CDG                  WIDTH 6 PICTURE ""
+[LINE] 1
+TipoDoc              WIDTH 9 PICTURE ""
+[LINE] 1
+NumeroDoc            WIDTH 11 PICTURE ""
+[LINE] 1
+NombreCliente        WIDTH 13 PICTURE ""
+[LINE] 1
+MetodoEntradaPINPAD  WIDTH 19 PICTURE ""
+^BATCH    S01_Inicializar                    
+[PARENT_FOLDER_ID] 0
+SET SAFETY OFF
+
+OPEN Datos
+LOCATE RECORD 1
+
+v_UsuVTOL = ALLTRIM(Usu_VTOL)
+v_UsuRUMBO = ALLTRIM(Usu_RUMBO)
+v_Usu_Legacy= ALLTRIM(Usu_Legacy)
+
+SET ECHO NONE
+SET PASSWORD 1 TO ALLTRIM(Cl_VTOL)
+SET PASSWORD 2 TO ALLTRIM(Cl_RUMBO)
+SET PASSWORD 3 TO ALLTRIM(Cl_Legacy)
+SET ECHO ON
+
+v_hoy = DOW(TODAY())
+
+v_des = DATE(TODAY() - (%v_hoy% - 1) - 6)
+v_has = DATE(TODAY() - (%v_hoy% - 1))
+
+v_desde = SUBSTR(v_des;7;4)+"-"+SUBSTR(v_des;4;2)+"-"+SUBSTR(v_des;1;2)+" 00:00:00"
+v_hasta = SUBSTR(v_has;7;4)+"-"+SUBSTR(v_has;4;2)+"-"+SUBSTR(v_has;1;2)+" 23:59:59"
+
+v_desde2 = SUBSTR(v_des;1;2)+"-"+SUBSTR(v_des;4;2)+"-"+SUBSTR(v_des;7;4)
+v_hasta2 = SUBSTR(v_has;1;2)+"-"+SUBSTR(v_has;4;2)+"-"+SUBSTR(v_has;7;4)
+
+COMM
+Nom = substr(date(today());1;2)+substr(date(today());4;2)+substr(date(today());7;4)
+
+Nom = SUBSTR(v_des;1;2)+SUBSTR(v_des;4;2)+SUBSTR(v_des;7;4)+"_"+SUBSTR(v_has;1;2)+SUBSTR(v_has;4;2)+SUBSTR(v_has;7;4)
+
+COMM
+v_des = "29/03/2022"
+v_has = "29/03/2022"
+v_desde = SUBSTR(v_des;7;4)+"-"+SUBSTR(v_des;4;2)+"-"+SUBSTR(v_des;1;2)+" 00:00:00"
+v_hasta = SUBSTR(v_has;7;4)+"-"+SUBSTR(v_has;4;2)+"-"+SUBSTR(v_has;1;2)+" 23:59:59"
+v_desde2 = SUBSTR(v_des;1;2)+"-"+SUBSTR(v_des;4;2)+"-"+SUBSTR(v_des;7;4)
+v_hasta2 = SUBSTR(v_has;1;2)+"-"+SUBSTR(v_has;4;2)+"-"+SUBSTR(v_has;7;4)
+
+SET SAFETY ON
+^FORMAT   OPERACIONES_REVERSADAS_SIN_NCR__02052022_08052022_                  OPERACIONES_REVERSADAS_SIN_NCR__02052022_08052022_                "" "OPERACIONES_REVERSADAS_SIN_NCR_(02052022_08052022).FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1617128385
+~.09/05/2022   16:59:07 vw_transaction EXTRACT RECORD IF Extraer = "SI" TO "Transacciones_Reversadas"
+~Entrada: Registros:954         Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+~.09/05/2022   16:59:07 Transacciones_Reversadas EXTRACT FIELDS ID OPERATIONID TICKET AS "Ticket1" LOTNUMBER CARDPREFIX CARDLASTDIGITS TRXTYPE PROVIDERNAME AMOUNT DESCRIPTION STORENAME OPERATIONSTATUS CLIENTDATE INPUTMODEPOSVALUE PLANCODE PAYMENTS AUTHORIZATIONCODE RESPONSECODE SERIALNUMBER BUSINESSNUMBER STORECODE REVERSETRANSACTIONID ORIGINALTRANSACTIONID VOIDTRANSACTIONID CLOSETRANSACTIONID STATUS TRANSACTIONSTATUS ORIGINALTRXTICKETNR ADDITIONALAMOUNT CDG ClaveFAC Extraer NRO_TRANSACCION Numero Punto Reversa FacturasCuponRumbo.NUMERO_FISCAL FacturasCuponRumbo.ID_PEDIDO_VENTA FacturasCuponRumbo.ES_BIEN_DE_USO FacturasCuponRumbo.NUMERO_CREDITO FacturasCuponRumbo.NUMERO_ENTREGA FacturasCuponRumbo.LEGAJO_CAJERO FacturasCuponRumbo.LEGAJO_AUTORIZANTE FacturasCuponRumbo.CAE_VIGENTE FacturasCuponRumbo.FECHA_VENCIMIENTO_CAE FacturasCuponRumbo.PUNTO_VENTA_FISCAL FacturasCuponRumbo.INTERES_FACTURA_COREFIN FacturasCuponRumbo.NUMERO_FACTURA_COREFIN FacturasCuponRumbo.PUNTO_FACTURA_COREFIN FacturasCuponRumbo.ID_COMPROBANTE AS "ID_COMPROBANTE1" FacturasCuponRumbo.VERSION FacturasCuponRumbo.SECOND_LEVEL_VERSION FacturasCuponRumbo.ID_PUNTO_DE_VENTA FacturasCuponRumbo.NUMERO_CORRELATIVO FacturasCuponRumbo.USERNAME FacturasCuponRumbo.ID_TIPO_COMPROBANTE FacturasCuponRumbo.FECHA_CREACION FacturasCuponRumbo.OBSERVACIONES FacturasCuponRumbo.ID_SUB_TIPO_COMPROBANTE FacturasCuponRumbo.ID_ESTADO FacturasCuponRumbo.ID_LOCAL FacturasCuponRumbo.ID_COMPROBANTE_ORI FacturasCuponRumbo.ID_PUNTO_DE_VENTA_ORIGINAL FacturasCuponRumbo.ID_PUNTO_DE_VENTA2 FacturasCuponRumbo.VERSION2 FacturasCuponRumbo.SECOND_LEVEL_VERSION2 FacturasCuponRumbo.NUMERO FacturasCuponRumbo.NOMBRE FacturasCuponRumbo.NUM_CAJA FacturasCuponRumbo.USUARIO FacturasCuponRumbo.ADMITE_AUTO_PRINT FacturasCuponRumbo.ADMITE_RUMBO_PRINT FacturasCuponRumbo.ID_COMPANIA FacturasCuponRumbo.ENTITY_UID FacturasCuponRumbo.ID_TIENDA FacturasCuponRumbo.PRINT_ASYNC FacturasCuponRumbo.PUNTO_ELECTRONICO FacturasCuponRumbo.CAJA_SECA FacturasCuponRumbo.TIENE_CAJA_RUMBO FacturasCuponRumbo.VTOL_ACTIVO FacturasCuponRumbo.ID_CONDICION_VENTA FacturasCuponRumbo.VERSION3 FacturasCuponRumbo.SECOND_LEVEL_VERSION3 FacturasCuponRumbo.MONTO FacturasCuponRumbo.CANTIDAD_CUOTAS FacturasCuponRumbo.IMPORTE_CUOTA FacturasCuponRumbo.CANTIDAD_CHEQUES FacturasCuponRumbo.CONFECCIONADO FacturasCuponRumbo.ENTREGA_CUOTA FacturasCuponRumbo.ENTREGA FacturasCuponRumbo.OBSERVACIONES2 FacturasCuponRumbo.ID_CUPON FacturasCuponRumbo.ID_MEDIO_PAGO_LOCAL FacturasCuponRumbo.ID_TOTALES_CONDICION_VENTA FacturasCuponRumbo.VTO_PRIMER_CUOTA FacturasCuponRumbo.ID_PEDIDO_VENTA2 FacturasCuponRumbo.IDX FacturasCuponRumbo.ID_ITEM_PEDIDO FacturasCuponRumbo.ADMITE_GPAY FacturasCuponRumbo.gpay_autorizado FacturasCuponRumbo.REQUIERE_AUTORIZACION FacturasCuponRumbo.ID_GPAY_OUT FacturasCuponRumbo.NUMERO_COMERCIO_ALTERNATIVO FacturasCuponRumbo.ID_TIPO_PRECIO FacturasCuponRumbo.detalle_cambio_comercio FacturasCuponRumbo.ENTREGA_CUOTA_CV_ORIGINAL FacturasCuponRumbo.ID_CUENTA_CORRIENTE FacturasCuponRumbo.PORCENTAJE_OBLIGATORIO_ASALDAR FacturasCuponRumbo.PLAN_GOBIERNO FacturasCuponRumbo.CODIGO_CBN FacturasCuponRumbo.AUTORIZADOR FacturasCuponRumbo.CODIGO_AUTORIZACION_MERCADO_PAGO FacturasCuponRumbo.codigo_mp_ingresado FacturasCuponRumbo.ID_REGLA_BONIFICACION_INTERES FacturasCuponRumbo.ID_SOLICITUD_CUOTA_YA FacturasCuponRumbo.CODIGO_PLAN_CUOTA_YA FacturasCuponRumbo.PROVEEDOR FacturasCuponRumbo.PAGADO_POR_BP FacturasCuponRumbo.ID_COMPROBANTE2 FacturasCuponRumbo.NOMBRE_PRODUCTO FacturasCuponRumbo.OPERACION FacturasCuponRumbo.FECHA_TRANSACCION FacturasCuponRumbo.CODIGO_TERMINAL FacturasCuponRumbo.CODIGO_PRODUCTO_VTOL FacturasCuponRumbo.NUMERO_CUENTA FacturasCuponRumbo.MODO_AUTORIZACION FacturasCuponRumbo.VERSION_SOFTWARE FacturasCuponRumbo.METODO_ENTRADA FacturasCuponRumbo.CODIGO_AUTORIZACION FacturasCuponRumbo.MONEDA FacturasCuponRumbo.MONTO2 FacturasCuponRumbo.CANTIDAD_CUOTAS2 FacturasCuponRumbo.ESTADO_AUTORIZACION FacturasCuponRumbo.NUMERO_LOTE FacturasCuponRumbo.NUMERO_TICKET FacturasCuponRumbo.NUMERO_TICKET_ORIGEN FacturasCuponRumbo.FECHA_TRANSACCION_ORIGINAL FacturasCuponRumbo.CODIGO_TRANSACCION FacturasCuponRumbo.CODIGO_MEDIO_PAGO FacturasCuponRumbo.NOMBRE_TITULAR_TARJETA FacturasCuponRumbo.FECHA_VENCIMIENTO_TARJETA FacturasCuponRumbo.CODIGO_RESPUESTA_VTOL FacturasCuponRumbo.MENSAJE_RESPUESTA_VTOL FacturasCuponRumbo.CODIGO_PLAN FacturasCuponRumbo.TIPO_DOCUMENTO_CLIENTE FacturasCuponRumbo.ID_CLIENTE FacturasCuponRumbo.IDE_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_DOCUMENTO_CLIENTE FacturasCuponRumbo.NUMERO_CAJA FacturasCuponRumbo.LEGAJO_VENDEDOR FacturasCuponRumbo.NUMERO_PEDIDO_VENTA FacturasCuponRumbo.CODIGO_LOCAL FacturasCuponRumbo.CODIGO_TRANSACCION_ORIGINAL FacturasCuponRumbo.NOMBRE_CLIENTE FacturasCuponRumbo.METODO_ENTRADA_PINPAD FacturasCuponRumbo.PINPAD_APPLICATION_ID FacturasCuponRumbo.PINPAD_APPLICATION_NAME FacturasCuponRumbo.monto_adicional FacturasCuponRumbo.TIPO_CUENTA FacturasCuponRumbo.NRO_TRANSACCION Ver IF ctes_por_factura.cpf_fac_nro = 0 AND Numero <> 0 TO "OPERACIONES_REVERSADAS_SIN_NCR"
+~Entrada: Registros:1           Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+~.09/05/2022   16:59:07 OPERACIONES_REVERSADAS_SIN_NCR EXTRACT FIELDS Centro NomLocal FechaHora Lote Ticket Tarjeta PrimerosDig UltDig Monto MontoAdicional Punto Numero CDG  TipoDoc NumeroDoc NombreCliente MetodoEntradaPINPAD  TO "OPERACIONES_REVERSADAS_SIN_NCR_(02052022_08052022)"
+~Entrada: Registros:1           Total de control:0                    
+~Salida: Registros:1           Total de control:0                    
+[LASTVIEW] "Vista_predeterminada"
+^REPORT   Vista_predeterminada                                                vw_transaction                                                    D,T.
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+ID                   WIDTH 8 PICTURE ""
+[LINE] 1
+OPERATIONID          WIDTH 13 PICTURE ""
+[LINE] 1
+TICKET               WIDTH 8 PICTURE ""
+[LINE] 1
+LOTNUMBER            WIDTH 12 PICTURE ""
+[LINE] 1
+CARDPREFIX           WIDTH 12 PICTURE ""
+[LINE] 1
+CARDLASTDIGITS       WIDTH 15 PICTURE ""
+[LINE] 1
+TRXTYPE              WIDTH 9 PICTURE ""
+[LINE] 1
+PROVIDERNAME         WIDTH 17 PICTURE ""
+[LINE] 1
+AMOUNT               WIDTH 10 PICTURE ""
+[LINE] 1
+DESCRIPTION          WIDTH 18 PICTURE ""
+[LINE] 1
+STORENAME            WIDTH 16 PICTURE ""
+[LINE] 1
+OPERATIONSTATUS      WIDTH 16 PICTURE ""
+[LINE] 1
+CLIENTDATE           WIDTH 15 PICTURE ""
+[LINE] 1
+INPUTMODEPOSVALUE    WIDTH 19 PICTURE ""
+[LINE] 1
+PLANCODE             WIDTH 11 PICTURE ""
+[LINE] 1
+PAYMENTS             WIDTH 11 PICTURE ""
+[LINE] 1
+AUTHORIZATIONCODE    WIDTH 18 PICTURE ""
+[LINE] 1
+RESPONSECODE         WIDTH 14 PICTURE ""
+[LINE] 1
+SERIALNUMBER         WIDTH 14 PICTURE ""
+[LINE] 1
+BUSINESSNUMBER       WIDTH 16 PICTURE ""
+[LINE] 1
+STORECODE            WIDTH 11 PICTURE ""
+[LINE] 1
+REVERSETRANSACTIONID WIDTH 20 PICTURE ""
+[LINE] 1
+ORIGINALTRANSACTIONID WIDTH 21 PICTURE ""
+[LINE] 1
+VOIDTRANSACTIONID    WIDTH 18 PICTURE ""
+[LINE] 1
+CLOSETRANSACTIONID   WIDTH 19 PICTURE ""
+[LINE] 1
+STATUS               WIDTH 9 PICTURE ""
+[LINE] 1
+TRANSACTIONSTATUS    WIDTH 18 PICTURE ""
+[LINE] 1
+ORIGINALTRXTICKETNR  WIDTH 19 PICTURE ""
+[LINE] 1
+ADDITIONALAMOUNT     PICTURE ""
+[LINE] 1
+NRO_TRANSACCION      WIDTH 17 PICTURE ""
+[LINE] 1
+Reversa              WIDTH 9 PICTURE ""
+[LINE] 1
+Extraer              WIDTH 8 PICTURE ""
+^FORMAT   vw_transaction                                                      vw_transaction                                                    "" "vw_transaction.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1617128385
+[LASTVIEW] "Vista_predeterminada"
+[RETRIEVE] 0
+[REFRESH] ACCESSDATA32 ODBC "Dsn" NAME "VTOL_PRD" USER "vtolqry" PROMPT_PASSWORD  TO "vw_transaction.FIL" CHARMAX 50 MEMOMAX 100   SOURCE( )   SQL_QUERY(      SELECT          ID,          OPERATIONID,          TICKET,          LOTNUMBER,          CARDPREFIX,          CARDLASTDIGITS,          TRXTYPE,          PROVIDERNAME,          AMOUNT,          DESCRIPTION,          STORENAME,          OPERATIONSTATUS,          CLIENTDATE,          INPUTMODEPOSVALUE,          PLANCODE,          PAYMENTS,          AUTHORIZATIONCODE,          RESPONSECODE,          SERIALNUMBER,          BUSINESSNUMBER,          STORECODE,          REVERSETRANSACTIONID,          ORIGINALTRANSACTIONID,          VOIDTRANSACTIONID,          CLOSETRANSACTIONID,          STATUS,          TRANSACTIONSTATUS,          ORIGINALTRXTICKETNR,          ADDITIONALAMOUNT      FROM          VTOL.dbo.vw_transaction      WHERE          (              CLIENTDATE >= '2022-03-29 00:00:00'              AND CLIENTDATE <= '2022-03-29 23:59:59'          )      ORDER BY TICKET, LOTNUMBER, CARDPREFIX, CARDLASTDIGITS   ) END_QUERY 
+^OPEN b,T,S00_Local;b,T,S02_Importar;b,T,S03_Relacionar;f,F,vw_transaction;b,F,S01_Inicializar;
